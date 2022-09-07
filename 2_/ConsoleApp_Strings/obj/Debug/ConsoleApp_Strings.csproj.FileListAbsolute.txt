@@ -1,0 +1,8 @@
+D:\Desktop\dev2blu\aula2\ConsoleApp_Strings\bin\Debug\ConsoleApp_Strings.exe.config
+D:\Desktop\dev2blu\aula2\ConsoleApp_Strings\bin\Debug\ConsoleApp_Strings.exe
+D:\Desktop\dev2blu\aula2\ConsoleApp_Strings\bin\Debug\ConsoleApp_Strings.pdb
+D:\Desktop\dev2blu\aula2\ConsoleApp_Strings\obj\Debug\ConsoleApp_Strings.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\aula2\ConsoleApp_Strings\obj\Debug\ConsoleApp_Strings.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\dev2blu\aula2\ConsoleApp_Strings\obj\Debug\ConsoleApp_Strings.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\aula2\ConsoleApp_Strings\obj\Debug\ConsoleApp_Strings.exe
+D:\Desktop\dev2blu\aula2\ConsoleApp_Strings\obj\Debug\ConsoleApp_Strings.pdb

@@ -1,0 +1,21 @@
+String -> Classe 
+string -> tipo primitivo
+
+quando usar VAR 
+https://pt.stackoverflow.com/questions/12728/diferen%c3%a7a-entre-object-dynamic-e-var/12737#12737
+
+sistema -> entrada e saída de dados
+
+
+A linguagem C# possui dois tipos de dados :
+
+Tipos de valor
+Tipos de referência
+O tipo de valor armazena o próprio valor, enquanto o tipo de referência armazena o endereço do valor em que está armazenado. Alguns tipos de dados predefinidos, como int, float, double, decimal, bool, char, etc. são tipos de valor e object, string e array são tipos de referência.
+
+ler sobre boxing e unboxing
+https://www.macoratti.net/20/04/c_boxunbox1.htm#:~:text=Boxing%20%C3%A9%20o%20processo%20de,Esta%20opera%C3%A7%C3%A3o%20%C3%A9%20impl%C3%ADcita.
+
+https://pt.stackoverflow.com/questions/12728/diferen%c3%a7a-entre-object-dynamic-e-var/12737#12737
+
+

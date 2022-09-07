@@ -1,0 +1,8 @@
+D:\Desktop\dev2blu\aula2\ConsoleApp_Numbers\bin\Debug\ConsoleApp_Numbers.exe.config
+D:\Desktop\dev2blu\aula2\ConsoleApp_Numbers\bin\Debug\ConsoleApp_Numbers.exe
+D:\Desktop\dev2blu\aula2\ConsoleApp_Numbers\bin\Debug\ConsoleApp_Numbers.pdb
+D:\Desktop\dev2blu\aula2\ConsoleApp_Numbers\obj\Debug\ConsoleApp_Numbers.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\aula2\ConsoleApp_Numbers\obj\Debug\ConsoleApp_Numbers.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\dev2blu\aula2\ConsoleApp_Numbers\obj\Debug\ConsoleApp_Numbers.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\aula2\ConsoleApp_Numbers\obj\Debug\ConsoleApp_Numbers.exe
+D:\Desktop\dev2blu\aula2\ConsoleApp_Numbers\obj\Debug\ConsoleApp_Numbers.pdb
