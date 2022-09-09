@@ -1,8 +1,8 @@
-D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\ConsoleApp_3_Conditions\bin\Debug\ConsoleApp_3_Conditions.exe.config
-D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\ConsoleApp_3_Conditions\bin\Debug\ConsoleApp_3_Conditions.exe
-D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\ConsoleApp_3_Conditions\bin\Debug\ConsoleApp_3_Conditions.pdb
-D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\ConsoleApp_3_Conditions\obj\Debug\ConsoleApp_3_Conditions.csproj.AssemblyReference.cache
-D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\ConsoleApp_3_Conditions\obj\Debug\ConsoleApp_3_Conditions.csproj.SuggestedBindingRedirects.cache
-D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\ConsoleApp_3_Conditions\obj\Debug\ConsoleApp_3_Conditions.csproj.CoreCompileInputs.cache
-D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\ConsoleApp_3_Conditions\obj\Debug\ConsoleApp_3_Conditions.exe
-D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\ConsoleApp_3_Conditions\obj\Debug\ConsoleApp_3_Conditions.pdb
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\ConsoleApp_3_Conditions\bin\Debug\ConsoleApp_3_Conditions.exe.config
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\ConsoleApp_3_Conditions\bin\Debug\ConsoleApp_3_Conditions.exe
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\ConsoleApp_3_Conditions\bin\Debug\ConsoleApp_3_Conditions.pdb
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\ConsoleApp_3_Conditions\obj\Debug\ConsoleApp_3_Conditions.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\ConsoleApp_3_Conditions\obj\Debug\ConsoleApp_3_Conditions.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\ConsoleApp_3_Conditions\obj\Debug\ConsoleApp_3_Conditions.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\ConsoleApp_3_Conditions\obj\Debug\ConsoleApp_3_Conditions.exe
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\ConsoleApp_3_Conditions\obj\Debug\ConsoleApp_3_Conditions.pdb
