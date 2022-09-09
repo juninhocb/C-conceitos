@@ -1,0 +1,11 @@
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Desktop\dev2blu\C-conceitos\3_\SolutionProj_3\src\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
