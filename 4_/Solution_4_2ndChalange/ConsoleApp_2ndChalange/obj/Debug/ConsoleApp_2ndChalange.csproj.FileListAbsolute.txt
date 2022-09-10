@@ -1,0 +1,8 @@
+D:\Desktop\dev2blu\C-conceitos\4_\Solution_4_2ndChalange\ConsoleApp_2ndChalange\bin\Debug\ConsoleApp_2ndChalange.exe.config
+D:\Desktop\dev2blu\C-conceitos\4_\Solution_4_2ndChalange\ConsoleApp_2ndChalange\bin\Debug\ConsoleApp_2ndChalange.exe
+D:\Desktop\dev2blu\C-conceitos\4_\Solution_4_2ndChalange\ConsoleApp_2ndChalange\bin\Debug\ConsoleApp_2ndChalange.pdb
+D:\Desktop\dev2blu\C-conceitos\4_\Solution_4_2ndChalange\ConsoleApp_2ndChalange\obj\Debug\ConsoleApp_2ndChalange.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\C-conceitos\4_\Solution_4_2ndChalange\ConsoleApp_2ndChalange\obj\Debug\ConsoleApp_2ndChalange.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\dev2blu\C-conceitos\4_\Solution_4_2ndChalange\ConsoleApp_2ndChalange\obj\Debug\ConsoleApp_2ndChalange.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\C-conceitos\4_\Solution_4_2ndChalange\ConsoleApp_2ndChalange\obj\Debug\ConsoleApp_2ndChalange.exe
+D:\Desktop\dev2blu\C-conceitos\4_\Solution_4_2ndChalange\ConsoleApp_2ndChalange\obj\Debug\ConsoleApp_2ndChalange.pdb
