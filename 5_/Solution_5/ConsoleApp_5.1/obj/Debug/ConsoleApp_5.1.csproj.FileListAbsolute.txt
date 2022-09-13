@@ -1,0 +1,8 @@
+D:\Desktop\dev2blu\C-conceitos\5_\Solution_5\ConsoleApp_5.1\bin\Debug\ConsoleApp_5.1.exe.config
+D:\Desktop\dev2blu\C-conceitos\5_\Solution_5\ConsoleApp_5.1\bin\Debug\ConsoleApp_5.1.exe
+D:\Desktop\dev2blu\C-conceitos\5_\Solution_5\ConsoleApp_5.1\bin\Debug\ConsoleApp_5.1.pdb
+D:\Desktop\dev2blu\C-conceitos\5_\Solution_5\ConsoleApp_5.1\obj\Debug\ConsoleApp_5.1.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\C-conceitos\5_\Solution_5\ConsoleApp_5.1\obj\Debug\ConsoleApp_5.1.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\dev2blu\C-conceitos\5_\Solution_5\ConsoleApp_5.1\obj\Debug\ConsoleApp_5.1.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\C-conceitos\5_\Solution_5\ConsoleApp_5.1\obj\Debug\ConsoleApp_5.1.exe
+D:\Desktop\dev2blu\C-conceitos\5_\Solution_5\ConsoleApp_5.1\obj\Debug\ConsoleApp_5.1.pdb
