@@ -16,8 +16,8 @@ namespace ConsoleApp_5._1
         static string scan() => Console.ReadLine();
         static void Main()
         {
-            const string WELCOME_FIRST = "Bem vindo ao programa, digite o número do exercício, ou 0 para sair! \n2- Exercicio compras \n3- Jogo 21";
-            const string ANOTHER_WELCOME = "Bem vindo novamente, digite o número do exercício ou 0 para sair, \n3- Exercicio compras \n3- Jogo 21";
+            const string WELCOME_FIRST = "Bem vindo ao programa, digite o número do exercício, ou 0 para sair! \n2- Exercicio compras \n3- Jogo 21\n4- Jogo 21 V2";
+            const string ANOTHER_WELCOME = "Bem vindo novamente, digite o número do exercício ou 0 para sair, \n2- Exercicio compras \n3- Jogo 21\n4- Jogo 21 V2";
             const string TITLE = "Exercícios _5";
             Console.Title = TITLE; 
             bool isFst = false; 
@@ -37,6 +37,9 @@ namespace ConsoleApp_5._1
                     case 3:
                         ex3();
                         break;
+                    case 4:
+                        ex4();
+                        break;
                     default:
                         print("\nDigite inválido, tente novamente");
                         Thread.Sleep(2000);
@@ -47,7 +50,116 @@ namespace ConsoleApp_5._1
             FINISH:
             print("Saindo.....");
         }
+        
+        static void ex4()
+        {
+            Console.Clear();
+            print("Bem vindo ao jogo do 21 - Versão 2. aguarde...");
+            Thread.Sleep(1500);
+            print("...");
+            Thread.Sleep(1500);
+            bool isUserTime = true;
+            bool isPcTime = false;
+            int result = 0;
+            REDO:
+            Console.Clear();
+            print("Escolha um valor entre [1 e 20]");
+            bool isValid = int.TryParse(scan(), out int inputUser);
+            if (!isValid || (inputUser < 1 || inputUser > 20))
+            {
+                print("Por favor, digite um valor válido, entre 1 e 20");
+                goto REDO;
+            }
+            print($"Você escolheu: {inputUser}, aguarde o Computador escolher o número dele");
+            Thread.Sleep(2000);
+            Random random = new Random();
+            int pcNumber = random.Next(1, 21);
+            print($"O computador escolheu o número {pcNumber}");
+            int generatedNumber = random.Next(1, 21);
+            int resultPc = pcNumber + generatedNumber;
+            int resultUser = inputUser + generatedNumber;
+            int userCount = 0;
+            int pcCount = 0;
+            AGAIN:
+            int count = 0;
+            if (isUserTime) { result = resultUser; } else { result = resultPc; }
+            switch (result)
+            {
+                //case <= 6:  //C# 9
+                case int n when  (n <= 6): 
+                    count +=1;
+                    break;
+                case 7:
+                    count += 10;
+                    break;
+                case int n when (n <= 8 && n<=13):
+                    count += 5;
+                    break;
+                case 14:
+                    count += 20;
+                    break;
+                case int n when (n >= 15 && n <= 20):
+                    count += 6;
+                    break;
+                case 21:
+                    count += 30;
+                    break;
+                default:
+                    break;
+            }
+            isUserTime = false;
+            if (!isPcTime) { 
+                isPcTime = true; 
+                userCount = count;  
+                goto AGAIN; 
+            }
+            pcCount = count; 
+            print($"Valor gerado aleatóriamente {generatedNumber}");
+            Thread.Sleep(2000);
+            print($"Soma do Usuário {resultUser}");
+            Thread.Sleep(2000);
+            print($"Soma do Computador {resultPc}");
+            Thread.Sleep(2000);
+            print($"Pontuação do Usuário {userCount}");
+            Thread.Sleep(2000);
+            print($"Pontuação do Computador {pcCount}");
+            Thread.Sleep(2000);
+            print("Aguarde o resultado!");
+            Thread.Sleep(3000);
+            if (userCount > pcCount)
+            {
+                print("Parabéns, você ganhou!");
+            }
+            else if (pcCount > userCount)
+            {
+                print("Que pena, você perdeu!");
+            }
+            else
+            {
+                print("Obitvemos um empate.");
+            }
+            REDO_CONTINUE:
+            print("\nDeseja jogar novamente? Digite Y para sim ou N para não");
+            ConsoleKeyInfo key = Console.ReadKey();
+            
+            char response = key.KeyChar;
+            if (response.Equals('Y'))
+            {
+                goto REDO;
+            }
+            else if (response.Equals('N'))
+            {
 
+            }
+            else
+            {
+                goto REDO_CONTINUE;
+            }
+
+            print("\nVoltando ao Menu");
+            Thread.Sleep(1500);
+
+        }
         static void ex3()
         {
             Console.Clear();
