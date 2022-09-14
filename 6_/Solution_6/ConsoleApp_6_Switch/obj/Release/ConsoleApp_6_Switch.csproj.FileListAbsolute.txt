@@ -1,0 +1,8 @@
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6\ConsoleApp_6_Switch\bin\Release\ConsoleApp_6_Switch.exe.config
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6\ConsoleApp_6_Switch\bin\Release\ConsoleApp_6_Switch.exe
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6\ConsoleApp_6_Switch\bin\Release\ConsoleApp_6_Switch.pdb
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6\ConsoleApp_6_Switch\obj\Release\ConsoleApp_6_Switch.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6\ConsoleApp_6_Switch\obj\Release\ConsoleApp_6_Switch.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6\ConsoleApp_6_Switch\obj\Release\ConsoleApp_6_Switch.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6\ConsoleApp_6_Switch\obj\Release\ConsoleApp_6_Switch.exe
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6\ConsoleApp_6_Switch\obj\Release\ConsoleApp_6_Switch.pdb

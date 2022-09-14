@@ -1,0 +1,11 @@
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6_WF\src\WindowsFormsApp_6\bin\Debug\WindowsFormsApp_6.exe.config
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6_WF\src\WindowsFormsApp_6\bin\Debug\WindowsFormsApp_6.exe
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6_WF\src\WindowsFormsApp_6\bin\Debug\WindowsFormsApp_6.pdb
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6_WF\src\WindowsFormsApp_6\obj\Debug\WindowsFormsApp_6.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6_WF\src\WindowsFormsApp_6\obj\Debug\WindowsFormsApp_6.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6_WF\src\WindowsFormsApp_6\obj\Debug\WindowsFormsApp_6.Properties.Resources.resources
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6_WF\src\WindowsFormsApp_6\obj\Debug\WindowsFormsApp_6.csproj.GenerateResource.cache
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6_WF\src\WindowsFormsApp_6\obj\Debug\WindowsFormsApp_6.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6_WF\src\WindowsFormsApp_6\obj\Debug\WindowsFormsApp_6.exe
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6_WF\src\WindowsFormsApp_6\obj\Debug\WindowsFormsApp_6.pdb
+D:\Desktop\dev2blu\C-conceitos\6_\Solution_6_WF\src\WindowsFormsApp_6\obj\Debug\WindowsFormsApp_6.Form1.resources
