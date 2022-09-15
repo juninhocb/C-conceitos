@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp_Jogo21", "src\WindowsFormsApp_Jogo21\WindowsFormsApp_Jogo21.csproj", "{ED502EF7-1DA4-4580-BA14-CE7174A93FA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED502EF7-1DA4-4580-BA14-CE7174A93FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED502EF7-1DA4-4580-BA14-CE7174A93FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED502EF7-1DA4-4580-BA14-CE7174A93FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED502EF7-1DA4-4580-BA14-CE7174A93FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96AF3209-3E72-4681-A526-ABE0033DCFD4}
+	EndGlobalSection
+EndGlobal

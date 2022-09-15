@@ -1,0 +1,11 @@
+D:\Desktop\dev2blu\C-conceitos\7_\Solution_7_Jogo21\src\WindowsFormsApp_Jogo21\bin\Debug\WindowsFormsApp_Jogo21.exe.config
+D:\Desktop\dev2blu\C-conceitos\7_\Solution_7_Jogo21\src\WindowsFormsApp_Jogo21\bin\Debug\WindowsFormsApp_Jogo21.exe
+D:\Desktop\dev2blu\C-conceitos\7_\Solution_7_Jogo21\src\WindowsFormsApp_Jogo21\bin\Debug\WindowsFormsApp_Jogo21.pdb
+D:\Desktop\dev2blu\C-conceitos\7_\Solution_7_Jogo21\src\WindowsFormsApp_Jogo21\obj\Debug\WindowsFormsApp_Jogo21.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\C-conceitos\7_\Solution_7_Jogo21\src\WindowsFormsApp_Jogo21\obj\Debug\WindowsFormsApp_Jogo21.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\dev2blu\C-conceitos\7_\Solution_7_Jogo21\src\WindowsFormsApp_Jogo21\obj\Debug\WindowsFormsApp_Jogo21.Jogo21.resources
+D:\Desktop\dev2blu\C-conceitos\7_\Solution_7_Jogo21\src\WindowsFormsApp_Jogo21\obj\Debug\WindowsFormsApp_Jogo21.Properties.Resources.resources
+D:\Desktop\dev2blu\C-conceitos\7_\Solution_7_Jogo21\src\WindowsFormsApp_Jogo21\obj\Debug\WindowsFormsApp_Jogo21.csproj.GenerateResource.cache
+D:\Desktop\dev2blu\C-conceitos\7_\Solution_7_Jogo21\src\WindowsFormsApp_Jogo21\obj\Debug\WindowsFormsApp_Jogo21.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\C-conceitos\7_\Solution_7_Jogo21\src\WindowsFormsApp_Jogo21\obj\Debug\WindowsFormsApp_Jogo21.exe
+D:\Desktop\dev2blu\C-conceitos\7_\Solution_7_Jogo21\src\WindowsFormsApp_Jogo21\obj\Debug\WindowsFormsApp_Jogo21.pdb
