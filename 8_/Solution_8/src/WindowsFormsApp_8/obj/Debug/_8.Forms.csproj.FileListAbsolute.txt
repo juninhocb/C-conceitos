@@ -1,0 +1,17 @@
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\bin\Debug\WindowsFormsApp_8.exe.config
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\bin\Debug\WindowsFormsApp_8.exe
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\bin\Debug\WindowsFormsApp_8.pdb
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\bin\Debug\ClassLibrary2.dll
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\bin\Debug\ClassLibrary2.pdb
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\obj\Debug\_8.Forms.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\obj\Debug\_8.Forms.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\obj\Debug\WindowsFormsApp_8.Form1.resources
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\obj\Debug\WindowsFormsApp_8.Properties.Resources.resources
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\obj\Debug\_8.Forms.csproj.GenerateResource.cache
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\obj\Debug\_8.Forms.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\obj\Debug\_8.Forms.csproj.CopyComplete
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\obj\Debug\WindowsFormsApp_8.exe
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\obj\Debug\WindowsFormsApp_8.pdb
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\bin\Debug\WindowsForms_2.exe
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\bin\Debug\WindowsForms_2.pdb
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\src\WindowsFormsApp_8\bin\Debug\WindowsForms_2.exe.config

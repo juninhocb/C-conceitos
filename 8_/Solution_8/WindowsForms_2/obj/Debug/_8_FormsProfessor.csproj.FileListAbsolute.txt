@@ -1,0 +1,14 @@
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\WindowsForms_2\bin\Debug\WindowsForms_2.exe.config
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\WindowsForms_2\bin\Debug\WindowsForms_2.exe
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\WindowsForms_2\bin\Debug\WindowsForms_2.pdb
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\WindowsForms_2\bin\Debug\ClassLibrary2.dll
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\WindowsForms_2\bin\Debug\ClassLibrary2.pdb
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\WindowsForms_2\obj\Debug\_8_FormsProfessor.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\WindowsForms_2\obj\Debug\_8_FormsProfessor.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\WindowsForms_2\obj\Debug\WindowsForms_2.Form1.resources
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\WindowsForms_2\obj\Debug\WindowsForms_2.Properties.Resources.resources
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\WindowsForms_2\obj\Debug\_8_FormsProfessor.csproj.GenerateResource.cache
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\WindowsForms_2\obj\Debug\_8_FormsProfessor.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\WindowsForms_2\obj\Debug\_8_FormsProfessor.csproj.CopyComplete
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\WindowsForms_2\obj\Debug\WindowsForms_2.exe
+D:\Desktop\dev2blu\C-conceitos\8_\Solution_8\WindowsForms_2\obj\Debug\WindowsForms_2.pdb
