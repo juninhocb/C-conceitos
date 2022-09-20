@@ -1,0 +1,14 @@
+D:\Desktop\dev2blu\C-conceitos\9_\Solution_9\src\WindowsForms_9\bin\Debug\WindowsForms_9.exe.config
+D:\Desktop\dev2blu\C-conceitos\9_\Solution_9\src\WindowsForms_9\bin\Debug\WindowsForms_9.exe
+D:\Desktop\dev2blu\C-conceitos\9_\Solution_9\src\WindowsForms_9\bin\Debug\WindowsForms_9.pdb
+D:\Desktop\dev2blu\C-conceitos\9_\Solution_9\src\WindowsForms_9\bin\Debug\ClassLibrary1.dll
+D:\Desktop\dev2blu\C-conceitos\9_\Solution_9\src\WindowsForms_9\bin\Debug\ClassLibrary1.pdb
+D:\Desktop\dev2blu\C-conceitos\9_\Solution_9\src\WindowsForms_9\obj\Debug\Foms.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\C-conceitos\9_\Solution_9\src\WindowsForms_9\obj\Debug\Foms.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\dev2blu\C-conceitos\9_\Solution_9\src\WindowsForms_9\obj\Debug\WindowsForms_9.Form1.resources
+D:\Desktop\dev2blu\C-conceitos\9_\Solution_9\src\WindowsForms_9\obj\Debug\WindowsForms_9.Properties.Resources.resources
+D:\Desktop\dev2blu\C-conceitos\9_\Solution_9\src\WindowsForms_9\obj\Debug\Foms.csproj.GenerateResource.cache
+D:\Desktop\dev2blu\C-conceitos\9_\Solution_9\src\WindowsForms_9\obj\Debug\Foms.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\C-conceitos\9_\Solution_9\src\WindowsForms_9\obj\Debug\Foms.csproj.CopyComplete
+D:\Desktop\dev2blu\C-conceitos\9_\Solution_9\src\WindowsForms_9\obj\Debug\WindowsForms_9.exe
+D:\Desktop\dev2blu\C-conceitos\9_\Solution_9\src\WindowsForms_9\obj\Debug\WindowsForms_9.pdb
