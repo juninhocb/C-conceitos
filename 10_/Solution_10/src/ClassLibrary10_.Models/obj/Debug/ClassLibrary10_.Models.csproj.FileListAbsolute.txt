@@ -1,0 +1,6 @@
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ClassLibrary10_.Models\obj\Debug\ClassLibrary10_.Models.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ClassLibrary10_.Models\obj\Debug\ClassLibrary10_.Models.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ClassLibrary10_.Models\bin\Debug\ClassLibrary10_.Models.dll
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ClassLibrary10_.Models\bin\Debug\ClassLibrary10_.Models.pdb
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ClassLibrary10_.Models\obj\Debug\ClassLibrary10_.Models.dll
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ClassLibrary10_.Models\obj\Debug\ClassLibrary10_.Models.pdb

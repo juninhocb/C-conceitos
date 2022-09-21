@@ -1,0 +1,11 @@
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ConsoleApp_10.Main\obj\Debug\ConsoleApp_10.Main.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ConsoleApp_10.Main\obj\Debug\ConsoleApp_10.Main.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ConsoleApp_10.Main\obj\Debug\ConsoleApp_10.Main.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ConsoleApp_10.Main\bin\Debug\ConsoleApp_10.Main.exe.config
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ConsoleApp_10.Main\bin\Debug\ConsoleApp_10.Main.exe
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ConsoleApp_10.Main\bin\Debug\ConsoleApp_10.Main.pdb
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ConsoleApp_10.Main\bin\Debug\ClassLibrary10_.Models.dll
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ConsoleApp_10.Main\bin\Debug\ClassLibrary10_.Models.pdb
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ConsoleApp_10.Main\obj\Debug\ConsoleApp_10.Main.csproj.CopyComplete
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ConsoleApp_10.Main\obj\Debug\ConsoleApp_10.Main.exe
+D:\Desktop\dev2blu\C-conceitos\10_\Solution_10\src\ConsoleApp_10.Main\obj\Debug\ConsoleApp_10.Main.pdb
