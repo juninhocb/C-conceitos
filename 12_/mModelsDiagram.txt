@@ -1,0 +1,62 @@
+@startuml
+
+title Models Diagram CRUD Project
+
+
+abstract class Person <<Abstract>> {
+  - Code: int
+  - Name: string
+  - Cpf: string
+  - Adress: string
+  - enum: EPersonType
+}
+
+class Patient { 
+ - PatientCode: int
+ - HealthInsurance: string
+}
+class Provider { 
+ - ProviderCode: int 
+ - enum: EProviderType
+}
+
+class Recepcionist { 
+ - RecepcionistCode: int 
+ - Sector: char
+}
+
+class Doctor { 
+ - DoctorCode: int
+ - Crm: int 
+ - enum: ESpeciality string
+}
+
+interface ICrud <<Interface>> {
+  
+  - CurrentList : list
+  + Menu() : int
+  + List() : void
+  + Register() : void
+  + Update() : void
+  + Delete() : void
+  
+  
+
+}
+
+
+Person <..up- Patient
+Person <..up- Provider
+Person <..down- Doctor
+Person <..down- Recepcionist
+UPatient <-up- ICrud
+UProvider <-up- ICrud
+URecepcionist <-down- ICrud
+UDoctor <-down- ICrud
+
+
+
+
+
+
+@enduml

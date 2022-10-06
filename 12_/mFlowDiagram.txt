@@ -1,0 +1,85 @@
+@startuml
+
+title Flow Diagram - CRUD Project
+
+
+start
+
+:Program;
+
+while (UMenu) 
+  :Mocks;
+  :EMenu;
+    if (DOCTOR) then (DOCTORS)
+      :UDoctor;
+      while (EMenu)
+        if (GET_DOC)
+          :LIST_DOCTORS;
+        elseif (POST_DOC)
+          :CREATE_DOCTOR;
+          :Mocks;
+        elseif (PUT_DOC)
+          :UPDATE_DOCTOR;
+          :Mocks;
+        elseif (DEL_DOC)
+          :DELETE_DOCTOR;
+          :Mocks;
+        endif
+      endwhile (Back)
+    elseif (PATIENT) then (PATIENTS)
+      :UPatient;
+      while (EMenu)
+        if (GET_PAT)
+          :LIST_PATIENTS;
+        elseif (POST_PAT)
+          :CREATE_PATIENT;
+          :Mocks;
+        elseif (PUT_PAT)
+          :UPDATE_PATIENT;
+          :Mocks;
+        elseif (DEL_PAT)
+          :DELETE_PATIENT;
+          :Mocks;
+        endif
+      endwhile (Back)
+    elseif (PROVIDER) then (PROVIDERS)
+      :UProvider;
+      while (EMenu)
+        if (GET_PRO)
+          :LIST_PROVIDERS;
+        elseif (POST_PRO)
+          :CREATE_PRO;
+          :Mocks;
+        elseif (PUT_PRO)
+          :UPDATE_PROVIDER;
+          :Mocks;
+        elseif (DEL_PRO)
+          :DELETE_PROVIDER;
+          :Mocks;
+        endif
+      endwhile (Back)
+    elseif (RECEPCIONIST)
+      :URecepcionist;
+      while (EMenu)
+        if (GET_REC)
+          :LIST_RECEPCIONISTS;
+        elseif (POST_REC)
+          :CREATE_RECEPCIONIST;
+          :Mocks;
+        elseif (PUT_REC)
+          :UPDATE_RECEPCIONIST;
+          :Mocks;
+        elseif (DEL_REC)
+          :DELETE_RECEPCIONIST;
+          :Mocks;
+        endif
+      endwhile (Back)
+    endif
+  :Clear Console;
+endwhile (Exit)
+
+:Close Console;
+
+stop
+
+@enduml
