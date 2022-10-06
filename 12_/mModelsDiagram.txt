@@ -45,14 +45,14 @@ interface ICrud <<Interface>> {
 }
 
 
-Person <..up- Patient
-Person <..up- Provider
-Person <..down- Doctor
-Person <..down- Recepcionist
-UPatient <-up- ICrud
-UProvider <-up- ICrud
-URecepcionist <-down- ICrud
-UDoctor <-down- ICrud
+Person <.up- Patient
+Person <.up- Provider
+Person <.down- Doctor
+Person <.down- Recepcionist
+UPatient -up.> ICrud
+UProvider -up.> ICrud
+URecepcionist .down-> ICrud
+UDoctor -down.> ICrud
 
 
 
