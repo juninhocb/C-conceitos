@@ -1,7 +1,6 @@
 # Jogo 21 
 
-> O jogo consiste em escolher um número a cada rodada, são três rodadas, o computador escolhe aletatóriamente o seu, ao final é calculado quem venceu cada rodada, o jogador que venceu 
-um maior número de rodadas vence. 
+> O jogo consiste em escolher um número a cada rodada, são três rodadas, o computador escolhe aletatóriamente o seu, e um número é gerado aleatóriamente, ao final é calculado quem venceu cada rodada de acordo com a soma entre o número escolhido e o número gerado, o jogador que venceu um maior número de rodadas vence. 
 
 ## Regras de negócio
 Soma | Pontuação
