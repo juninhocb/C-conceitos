@@ -12,7 +12,7 @@
 #### Diagramas
 
 <img src= "https://i.ibb.co/LNjV7r2/m-Enum-Diagram.png" height= 500>
-<img src= "https://i.ibb.co/4mLRXKk/m-Models-Diagram.png" height= 500>
+<img src= "https://i.ibb.co/RyvGLjf/m-Models-Diagram.png" height= 500>
 
 #### Fluxograma
 <img src= "https://i.ibb.co/C6z5zy6/m-Flow-Diagram.png">
