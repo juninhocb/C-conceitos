@@ -12,7 +12,8 @@
 
 <body>
 <ol>
-<li>Salvar o Schema e executar no MySQL</li>
+<li>Salvar e importar o Schema MySQL</li>
+<li>Executar o Schema no MySQL </li>
 <li>Abrir a SLN no Visual Studio Community</li>
 <li>Substituir credencias do MySQL</li>
 <li>Executar o projeto </li>
