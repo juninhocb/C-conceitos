@@ -1,0 +1,63 @@
+@startuml
+
+title Enum Diagram - CRUD Project
+
+
+enum EPersonType <<Ennumarable>> {
+  PF = 1
+  PJ = 2
+}
+
+enum EMenu <<Ennumarable>> {
+  EXIT = 0
+  DOCTORS = 1
+  PATIENTS = 2
+  PROVIDERS = 3
+  RECEPCIONISTS = 4
+  
+  BACK = 5
+  GET_DOC = 10
+  POST_DOC = 11
+  PUT_DOC = 12
+  DEL_DOC = 13
+  GET_PAT = 20
+  POST_PAT = 21
+  PUT_PAT = 22
+  DEL_PAT = 23
+  GET_PRO = 30
+  POST_PRO = 31
+  PUT_PRO = 32
+  DEL_PRO = 33
+  GET_REC = 40
+  POST_REC = 41
+  PUT_REC = 42
+  DEL_REC = 43
+  
+}
+
+enum EProviderType <<Ennumarable>> {
+  REMEDIOS = 0
+  SUPRIMENTOS = 1
+  TECNOLOGIA = 2
+  FROTA = 3
+  SERVICOS_GERAIS = 4
+  PAPELARIA = 5
+  OUTROS = 6
+}
+
+enum ESpeciality <<Ennumarable>> {
+  DERMATOLOGISTA = 0
+  CLINICO_GERAL = 1
+  CARIOLOGISTA = 2
+  ORTOPEDISTA = 3
+  ANESTESIOLOGISTA = 4
+  PEDIATRA = 5
+  PSIQUIATRA = 6
+  ONCOLOGISTA = 7
+  ENDOCRINOLOGISTA = 8
+  HEMATOLOGISTA = 9
+  CIRURGIAO_PLASTICO = 10
+}
+
+
+@enduml

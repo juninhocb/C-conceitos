@@ -1,0 +1,11 @@
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\Console_Main\bin\Debug\Console_Main.exe.config
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\Console_Main\bin\Debug\Console_Main.exe
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\Console_Main\bin\Debug\Console_Main.pdb
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\Console_Main\obj\Debug\Console_Main.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\Console_Main\obj\Debug\Console_Main.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\Console_Main\obj\Debug\Console_Main.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\Console_Main\obj\Debug\Console_Main.exe
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\Console_Main\obj\Debug\Console_Main.pdb
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\Console_Main\bin\Debug\ClassLibrary_Models.dll
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\Console_Main\bin\Debug\ClassLibrary_Models.pdb
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\Console_Main\obj\Debug\Console_Main.csproj.CopyComplete

@@ -1,0 +1,6 @@
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\ClassLibrary_Models\bin\Debug\ClassLibrary_Models.dll
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\ClassLibrary_Models\bin\Debug\ClassLibrary_Models.pdb
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\ClassLibrary_Models\obj\Debug\ClassLibrary_Models.csproj.AssemblyReference.cache
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\ClassLibrary_Models\obj\Debug\ClassLibrary_Models.csproj.CoreCompileInputs.cache
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\ClassLibrary_Models\obj\Debug\ClassLibrary_Models.dll
+D:\Desktop\dev2blu\C-conceitos\12_\CRUD\src\ClassLibrary_Models\obj\Debug\ClassLibrary_Models.pdb
