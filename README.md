@@ -1,5 +1,5 @@
 # C# Conceitos
-Framework .NET 4.7.2
+Framework .NET 4.7.2 e 4.8
 
 ## Projetos Realizados.
 
