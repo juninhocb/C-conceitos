@@ -8,7 +8,7 @@
 
 <img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);" src="https://i.imgur.com/cI0eIVX.gif">
 
-## Pasos para reproduzir
+## Passos para reproduzir
 
 <body>
 <ol>
