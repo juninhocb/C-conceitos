@@ -1,0 +1,30 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:21374",
+      "sslPort": 44331
+    }
+  },
+  "profiles": {
+    "WebApplication": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+        "launchBrowser": true,
+      "launchUrl": "novo_teste",
+      "applicationUrl": "https://localhost:7094;http://localhost:5094",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+        "commandName": "IISExpress",
+        "launchBrowser": true,
+        "launchUrl": "novo_teste",
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+    }
+  }
+}
