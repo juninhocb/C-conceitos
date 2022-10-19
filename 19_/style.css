@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* General(Body) Style */
+
+* {
+    margin: 0;   
+}
+
+body {
+    /*width: 100px;*/
+    overflow-x: hidden;  
+    background-color: rgb(15, 207, 127);
+}
+
+figure {
+    height: 80px;
+    display: inline-flex;
+    line-height: 80px;
+}
+
+/* Header Style */
+
+header {
+    border-bottom: 3px solid #fff;
+    height: 100px;
+    background-color:rgb(8, 87, 14);
+}
+
+header > figure {
+    color: #fff;
+    padding: 15px;
+}
+
+header > figure > img {
+    width: 65px;
+    height: 65px;
+}
+
+header > figure > figcaption {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+/* Div Style */
+
+.wrapper {
+    /*display: block;*/
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+}
+
+main {
+    border: 1px solid #fff;
+    box-shadow: 2px 1px 3px #111;
+    padding: .5em;
+    background-color: rgb(99, 235, 111);
+}
+
+h3.titulo-texto {
+    border-bottom: 1px solid #fff;
+    padding: .3em;
+    margin-bottom: 0.5em;
+    color: #fff;
+    font-size: 25px;
+}
+
+div.conteudo {
+    padding: .3em;
+    text-align: justify;
+}
+
+div.conteudo > p {
+    color: #fff;
+    text-indent: 2em;
+    margin-top: 5px;
+}
+
+/* Footer Style */
+
+footer {
+    background-color: rgb(8, 87, 14);
+    border-top: 3px solid #fff;
+    padding: 1em;
+    height: 70px;
+}
+
+footer > figure > img {
+    width: 30px;
+    height: 30px;
+}
+
+footer > figure > figcaption { 
+    margin-left: .15em;
+    color: #fff;
+}
+
+
+
