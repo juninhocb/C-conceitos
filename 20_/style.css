@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+/* General Style */
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header Style */
+header {
+    border-bottom: 2px solid #edeade;
+  }
+
+/*Cubo*/
+  
+.cube {
+    width: 100px;
+    height: 100px;
+    animation: rotate 10s infinite alternate;
+    transform-style: preserve-3d;
+  }
+  
+.face {
+    background: linear-gradient(45deg, #4fd1c522, #4fd1c5cc);
+    border: 2px solid #4fd1c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-size: 15px;
+    font-weight: bold;
+    color: #234e52;
+  
+    width: 50px;
+    height: 50px;
+    position: absolute;
+  }
+  
+.face--front {
+    transform: translateZ(25px);
+  }
+  
+.face--right {
+    transform: rotateY(90deg) translateZ(25px);
+  }
+  
+.face--back {
+    transform: rotateY(180deg) translateZ(25px);
+  }
+  
+.face--left {
+    transform: rotateY(-90deg) translateZ(25px);
+  }
+  
+.face--top {
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  
+.face--bottom {
+    transform: rotateX(-90deg) translateZ(25px);
+  }
+  
+@keyframes rotate {
+    from {
+        transform: rotateX(-20deg) rotateY(-10deg);
+    }
+    50% {
+      transform: rotateX(20deg) rotateY(320deg);
+    }
+  
+    to {
+      transform: rotateX(-20deg) rotateY(-20deg);
+    }
+  }
+
+
+/* Side Menu Style */
+
+div.side-menu {
+    display: block;
+    background-color: #adeada;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 2px 1px 3px #edeade;
+    padding: 20px;
+    margin-bottom: auto;
+}
+
+div.side-menu > header > figure {
+    height: 220px;
+    width: 200px;
+    background-color: #adeada;
+}
+
+div.side-menu > header > figure > center > img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+div.side-menu > header > figure > center > figcaption > text {
+    text-align: center;
+    color: #edeade;
+}
+
+
+div.side-menu > div.wrapper-menu > figure > img {
+    height: 30px;
+    margin-top: 25px;
+}
+
+div.side-menu > div.wrapper-menu > figure {
+    display: inline-flex;
+    line-height: 80px;
+}
+
+div.side-menu > div.wrapper-menu > figure > figcaption > text{
+    color: #edeade;
+    margin-left: 10px;
+} 
+
+
+
+/* Footer Menu */
+div.side-menu > footer {
+    border-top: 2px solid #fff;
+} 
+
+div.side-menu > footer > div {
+    margin-top: 35px;
+}
+
+div.side-menu > footer > div > a:link {
+    text-decoration: none;
+    font-size: 8px;
+}
+
+div.side-menu > footer > div > a:hover {
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+/* Content Div Style*/
+
+div.page-content {
+    background-color: #cdeadc;
+}
+
+/* Header Style */
+
+div.page-content > header {
+    background-color: #bdeadb;
+    height: 100px;
+}
+
+div.page-content > header > figure {
+    color: #463c3c;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+div.page-content > header > figure > figcaption  {
+    line-height: 70px;
+}
+
+div.page-content > header > figure > figcaption > text {
+    font-size: 20px;
+}
+
+
+div.page-content > header > figure > img {
+    width: 64px;
+    height: 64px;
+    line-height: 100px;
+    color: #463c3c;
+  }
+.page-content {
+    margin-left: 240px;
+    background-color: black;
+}
+
+
+/* Wrapper Style */
+
+.wrapper {
+  margin: 1.5em;
+  background-color: #ddeadd;
+}
+
+.content-top {
+  padding-bottom: 20px;
+  align-items: center;
+  border-bottom: 1px solid #463c3c;
+  width: 100%;
+}
+
+
+.profile-description {
+  text-align: center;
+}
+
+div.content {
+  padding: 0.5em;
+  text-align: justify;
+  margin-top: 1em;
+}
+
+div.content p {
+  text-align: justify;
+}
+
+
+.info-name {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #463c3c;
+  text-indent: 5px;
+}
+
+.info-descricao {
+  padding-top: 7px;
+  padding-bottom: 50px;
+  text-indent: 15px;
+}
+
+main {
+  display: block;
+  border: 1px solid #463c3c;
+  padding: 1em;
+  box-shadow: 2px 1px 3px #463c3c;
+  border-radius: 8px;
+}
+
+/* Footer Page-Content */
+
+div.page-content > footer {
+    font-size: 10px;
+    text-align: right;
+    margin-right: 5px;
+}
+
