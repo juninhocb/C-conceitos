@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+body {
+    background-color: rgb(119, 233, 134);
+}
+header{ 
+    height: 120px;
+    background-color: rgb(6, 49, 35);
+}
+
+header > h1 {
+    padding: 0.5em;
+    color: #fff;
+}
+
+section.destaque {
+    margin-top: 60px;
+    height: 100px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: rgb(6, 49, 35);
+}
+
+section.destaque > center > div > p {
+    color: #fff;
+    font-size: 22px;
+}
+
+div.main {
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 10px;
+    background-color: rgb(6, 49, 35);
+}
+
+
+
+p {
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+div.lists {
+    padding: 5px;
+}
+
+li { 
+    margin-top: 10px;
+    color: #fff;
+}
+
+
+
+
