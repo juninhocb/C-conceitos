@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+}
+/* HEADER */ 
+header{
+   background-color: #FFC107; 
+   height: 120px;
+   border-bottom: 2px solid #ccc;
+}
+
+header > figure {
+    display: flex;
+    line-height: 120px;
+}
+
+header > figure > img { 
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+header > figure > figcaption {
+    margin-left: 5px;
+}
+
+/* END HEADER */ 
+
+/* BODY */ 
+
+body{
+    background-color: #BDBDBD;
+}
+
+
+/* SECTION */
+
+body > section {
+    overflow-x: hidden;
+    background-color: #DCEDC8;
+    height: 120px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+body > section > figure { 
+    display: flex;
+}
+body > section > figure > img {
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+body > section > figure > figcaption{
+    line-height: 120px;
+    margin-left: 10px;
+}
+
+body > main {
+    background-color: #DCEDC8;
+    margin-top: 50px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+
+body > main > div {
+    padding: 15px;
+}
+
+
+body > main > div > ul > li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+body > main > div > ul > li > a {
+    margin-top: 20px;
+}
+
+/* END BODY */ 
+
+
+/* FOOTER */
+
+footer {
+    margin-top: 40px;
+}
+
+/* END FOOTER */
