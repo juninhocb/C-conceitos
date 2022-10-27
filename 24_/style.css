@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+nav {
+    background-color: blanchedalmond;
+    display: flex;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+nav > ul > li {
+    margin-top: 10px;
+    float: left;
+    display: block;
+    margin-left: 15px;
+}
+
+p:hover{
+    color: red;
+}
+
+
+
+body{
+    background-color: aqua;
+}
+
+.content-abas{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 150px;
+    width: 500px;
+}
+
+.content-abas#aba1{
+    visibility: visible;
+    background-color: blue;
+}
+
+.content-abas#aba2 {
+    visibility: hidden;
+    background-color: red;
+}
+
+.content-abas#aba3 {
+    visibility: hidden;
+    background-color: green;;
+}
+
+.content-abas#aba4 {
+    visibility: hidden;
+    background-color: orange;
+}
