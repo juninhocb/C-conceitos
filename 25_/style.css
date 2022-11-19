@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+}
+
+header { 
+    height: 80px;
+    display: flex;
+    background-color: gray;
+    box-shadow: 10px;
+}
+
+header > figure { 
+    display: flex;
+    margin-left: 30px;
+    margin-top: 15px;
+
+}
+header > figure > img {
+    height: 50px;
+}
+
+header > figure > figcaption {
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+header > nav { 
+    display: flex;
+    line-height: 80px;
+}
+
+header > nav > h1 { 
+    margin-left: 60px;
+}
+
+main {
+    height: 450px;
+    background-color: gainsboro;
+}
+
+main.news {
+    height: auto;
+}
+
+
+
+#slider {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 25vw;
+    max-height: 150px;
+    position: relative;
+}
+
+#slider > img {
+    margin-top: 20px;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#slider > img.selected {
+    opacity: 1;
+}
+
+main > div.newsletter{
+    margin-top: -70px;
+    width: 300px;
+    background-color: blanchedalmond;
+    height: 200px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+main > div.newsletter > h1{
+    padding: 25px;
+}
+
+main > div.newsletter > input{
+    background-color: azure;
+    margin-left: 20px;
+}
+
+main > div.newsletter > input.btnEnviar{
+    width: 60px;
+    margin-left: 10px;
+}
+
+main > div.content{
+    margin-top: -80px;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+}
+main > div.content > h1 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+main > div.content > ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+main > div.content > ul > li {
+    margin-top: 5px;
+}
+
+main > h1.title {
+    padding: 10px;
+}
+
+main > div.news {
+    margin-left: 30px;
+}
+
+main.cntt {
+    padding-top: 100px;
+    width: auto;
+    padding-bottom: 350px;
+}
+
+main.cntt > section {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    width: 400px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main > section > div.contato > figure.icon {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+main > section > div.contato > figure.icon > figcaption {
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+main > section > div.contato > figure.icon > img{
+    height: 30px;
+}
+
+footer {
+
+    display: flex;
+    height: 75px;
+    background-color: gray;
+    box-shadow: 10px;
+}
+
+footer.news {   
+    margin-top: 20px;
+}
+
+footer > h1 {
+    padding: .5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* MODAL STYLE */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 3px solid #000;
+    width: 55%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.btn-modal{
+    height: 25px;
+}
+
+
+#btnAbrirComentarios {
+    width: 200px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+#btn-zerar {
+    opacity: 0;
+}
+
+#btn-zerar:hover{
+    opacity: 1;
+}
+
+.modal2 {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  #mapsGoogle {
+    margin-left: 500px;
+  }
+

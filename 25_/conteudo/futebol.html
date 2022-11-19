@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Páginas de Notícias</title>
+    <link rel="stylesheet" href="/25_/style.css">
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="/25_/_img/news.png" alt="logo">
+            <figcaption>Notícias</figcaption>
+        </figure>
+        <nav>
+            <h1> <a href="/25_/index.html"> Home </a> </h1>
+            <h1> <a href="/25_/conteudo/conteudo.html"> Conteúdo </a></h1>
+            <h1> <a href="/25_/contato.html"> Contato </a></h1>
+        </nav>
+    </header>
+    <main class="news">
+        <h1 class="title"> Futebol </h1>
+        <div class="news" id="futebol">
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1 id="tituloMateria">Titulo da matéria</h1>
+                <br>
+                <br>
+                <h2>Nome</h2>
+                <input type="text" id="nomePessoa" value="">
+                <br>
+                <br>
+                <h2>Comentário </h2>
+                <!-- TODO: Tamanho flexível do textarea-->
+                <textarea value="" id="txtComentario" cols="90" rows="10"></textarea>
+                <br>
+                <br>
+                <button onclick="gravarComentario()" id="btn-gravar" class="btn-modal"> Gravar comentário </button>
+            </div>
+
+        </div>
+    </main>
+    <footer class="news">
+        <h1> Powered By: Cjr </h1>
+        <h1> (15) 99999-9999 </h1>
+        <button id="btn-zerar" onclick="zerarTudo()"> Zerar Local Storage </button>
+    </footer>
+
+    <script src="/25_/_js/script.js"></script>
+</body>
+
+</html>

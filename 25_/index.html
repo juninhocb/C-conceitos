@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Páginas de Notícias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="_img/news.png" alt="logo">
+            <figcaption>Notícias</figcaption>
+        </figure>
+        <nav>
+            <h1> <a href="/25_/index.html"> Home </a> </h1>
+            <h1>  <a href="/25_/conteudo/conteudo.html">  Conteúdo </a></h1>
+            <h1> <a href="/25_/contato.html">  Contato </a></h1>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="slider">
+                <img class="selected" src="_img/news1.png" alt="selected">
+                <img src="_img/news1.png" alt="news1">
+                <img src="_img/news2.jpg" alt="news2">
+                <img src="_img/news3.jpg" alt="news3">
+            </div>
+        </section>
+        <div class="newsletter">
+            <h1>Se inscreva no Newsletter</h1>
+            <input id="txtNewsletter" class="txtBox" type="text" value="seu email aqui" onfocus="limparCampoInput()"> 
+            <button onclick="gravarNewslatter()" class="btnEnviar" > Enviar </button>
+        </div>
+        <div class="content">
+            <h1> Lista de notícias </h1>
+            <ul>
+                <li> <a href="/25_/conteudo/futebol.html"> Futebol</a></li>
+                <li> <a href="/25_/conteudo/economia.html"> Economia </a></li>
+                <li> <a href="/25_/conteudo/copa_do_mundo.html"> Copa do Mundo </a></li>
+                <li> <a href="/25_/conteudo/programacao.html"> Programação </a></li>
+                <li> <a href="/25_/conteudo/carros.html"> Carros </a></li>
+            </ul>
+        </div>
+        
+        <div id="otherModal" class="modal2">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p> Os diretórios do site estão de acordo com o caminho /25_</p>
+                <p> Foram implementadas as notícias do futebol, newsletter e mapa em contato </p>
+            </div>
+
+        </div>
+    </main>
+    <footer> 
+        <h1> Powered By: Cjr </h1>
+        <h1> (15) 99999-9999 </h1>
+    </footer>
+
+    <script src="_js/mainScript.js"></script>
+</body>
+</html>

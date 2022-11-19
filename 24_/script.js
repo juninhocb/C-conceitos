@@ -35,7 +35,7 @@ $('#a4').addEventListener ('click', (event) => {
     console.log("Teste");
 })
 
-
+//TODO uma função só para fazer a das 4 acima
 
 function $(querySelector) {
     return document.querySelector(querySelector);
