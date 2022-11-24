@@ -17,7 +17,8 @@ namespace Mvc1.Controllers
         {
             return View("Test");
         }
-        
+
+        [Route("cadastro")]
         public IActionResult Cadastro()
         {
             return View();
