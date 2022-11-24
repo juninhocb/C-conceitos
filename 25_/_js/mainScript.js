@@ -24,18 +24,18 @@ function nextImage() {
 function gravarNewslatter() {
     //usando session pra diversificar um pouco
     let txtInput = document.getElementById("txtNewsletter");
-    let myAutoIncrement = parseInt(sessionStorage.getItem("ai")); 
+    let myAutoIncrement = parseInt(sessionStorage.getItem("ai"));
     console.log(myAutoIncrement);
-    if (isNaN(myAutoIncrement))    
+    if (isNaN(myAutoIncrement))
         myAutoIncrement = 1;
-        
+
     try {
         if (txtInput.value != null
             && txtInput.value != ""
             && !txtInput.value.includes(" ")
             && txtInput.value.includes("@")
             && txtInput.value.split("@")[1].includes(".com")
-        )  {
+        ) {
             sessionStorage.setItem(`newsletter${myAutoIncrement}`, txtInput.value);
             window.alert("Email gravado com sucesso! (está gravado na sessão)");
             myAutoIncrement += 1;
@@ -44,13 +44,13 @@ function gravarNewslatter() {
         else {
             window.alert("Insira um email válido");
         }
-     }
-     catch (err) {
+    }
+    catch (err) {
         window.alert("Insira um email válido");
         console.log("error: " + err);
-     } finally {
+    } finally {
         txtInput.value = "";
-     }
+    }
 
 }
 
@@ -69,6 +69,7 @@ var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
+    console.log(modal);
     modal.style.display = "none";
 };
 

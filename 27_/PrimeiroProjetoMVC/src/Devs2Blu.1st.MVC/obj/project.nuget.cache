@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "Un/ZC/tW/9RSz7Y0BRNkXaqZo9xLZibF0a9zzYb00k+6hMHT1mne8gWgXzw7JtGFqXOsi9468amZPMcpVroBGw==",
+  "success": false,
+  "projectFilePath": "D:\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\27_\\PrimeiroProjetoMVC\\src\\Devs2Blu.1st.MVC\\Devs2Blu.1st.MVC.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\fsharp.core\\6.0.6\\fsharp.core.6.0.6.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation. Não existe nenhum pacote com esta ID nas origens: C:\\Program Files\\dotnet\\sdk\\6.0.401\\FSharp\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

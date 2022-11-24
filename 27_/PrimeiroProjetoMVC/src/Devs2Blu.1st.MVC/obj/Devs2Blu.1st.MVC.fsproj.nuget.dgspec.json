@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\27_\\PrimeiroProjetoMVC\\src\\Devs2Blu.1st.MVC\\Devs2Blu.1st.MVC.fsproj": {}
+  },
+  "projects": {
+    "D:\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\27_\\PrimeiroProjetoMVC\\src\\Devs2Blu.1st.MVC\\Devs2Blu.1st.MVC.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\27_\\PrimeiroProjetoMVC\\src\\Devs2Blu.1st.MVC\\Devs2Blu.1st.MVC.fsproj",
+        "projectName": "Devs2Blu.1st.MVC",
+        "projectPath": "D:\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\27_\\PrimeiroProjetoMVC\\src\\Devs2Blu.1st.MVC\\Devs2Blu.1st.MVC.fsproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\27_\\PrimeiroProjetoMVC\\src\\Devs2Blu.1st.MVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\6.0.401\\FSharp\\library-packs": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.6, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.9, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
