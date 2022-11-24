@@ -14,6 +14,7 @@ Projeto | Tipo Aplicação | Descrição | Documentação e Layout do Projeto
 15_ CRUD Grupo #4 | Windows Forms | CRUD integrado ao BD MySQL | <a href="https://github.com/AlexSchwC/Devs2Blu.Projetos.SistemaCadastroSQL"> CRUD 2</a> 
 16_ Agenda Contatos | Windows Forms | CRUD e marcação de compromissos aos contatos | <a href="https://github.com/juninhocb/C-conceitos/tree/main/16_/Solution16_" >Agenda Contatos</a>
 20_ Currículo| Aplicação WEB (HTML E CSS)| Página de um Currículo | <a href="https://github.com/juninhocb/C-conceitos/blob/main/20_/README.md"> Currículo</a> 
+25_ Página de notícias| Aplicação WEB (HTML, CSS e Javascript)| Página com navegações, iterações e etc | <a href="https://github.com/juninhocb/C-conceitos/tree/main/25_"> Página de notícias</a>
 
 
 
