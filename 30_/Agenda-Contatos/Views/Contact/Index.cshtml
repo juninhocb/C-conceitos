@@ -1,0 +1,104 @@
+﻿@model List<ContactModel>
+@{
+    ViewData["Title"] = "Listagem de Contatos";
+}
+
+
+
+<div class="text-center">
+    <br/>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary" role="button" asp-controller="Contact" asp-action="Create"> Adicionar novo contato</a>
+    </div>
+    <br/>
+
+    @if (TempData["Success"] != null)
+    {  
+        <div class="alert alert-success" role="alert">
+            <button type="button" class="btn btn-danger btn-close close-alert" arial-label="Close"> </button>
+            @TempData["Success"]
+        </div>
+    } 
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            <button type="button" class="btn btn-danger btn-close close-alert" arial-label="Close"> </button>
+            @TempData["Error"]
+        </div>
+    }
+
+
+    <br />
+
+    <h1 class="display-4"> Listagem de Contatos</h1>
+
+    <table class="table" id="table-contacts">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Email</th>
+                <th scope="col">Celular</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>mark@hotmail.com</td>
+                <td>11 99823-2342</td>
+                <td>
+                    <div class="gap-2" role="group" aria-label="Basic example">
+                        <a role="button" class="btn btn-primary" asp-controller="Contact" asp-action="Edit">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Contact" asp-action="Delete">Apagar</a>
+                    </div>
+                </td>         
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>jacbobsain@hotmail.com</td>
+                <td>11 99238-1242</td>
+                <td>
+                    <div class="gap-2" role="group" aria-label="Basic example">
+                        <a role="button" class="btn btn-primary" asp-controller="Contact" asp-action="Edit">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Contact" asp-action="Delete">Apagar</a>
+                   </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Nathan</td>
+                <td>nath123_12@gmail.com</td>
+                <td>11 99345-3495</td>
+                <td>
+                    <div class="gap-2" role="group" aria-label="Basic example">
+                        <a role="button" class="btn btn-primary" asp-controller="Contact" asp-action="Edit">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Contact" asp-action="Delete">Apagar</a>
+                    </div>
+                </td>
+            </tr>
+            @if(Model != null && Model.Any())
+            {
+                foreach (ContactModel contact in Model)
+                {
+                    <tr>
+                        <th scope="row">@contact.Id</th>
+                        <td>@contact.Name</td>
+                        <td>@contact.Email</td>
+                        <td>@contact.Phone</td>
+                        <td>
+                            <div class="gap-2" role="group" aria-label="Basic example">
+                                <a role="button" class="btn btn-primary" asp-route-id="@contact.Id" asp-controller="Contact" asp-action="Edit">Editar</a>
+                                <a role="button" class="btn btn-danger" asp-route-id="@contact.Id" asp-controller="Contact" asp-action="Delete">Apagar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+</div>

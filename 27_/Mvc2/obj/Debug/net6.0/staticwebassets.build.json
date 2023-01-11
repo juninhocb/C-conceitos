@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a3O7BgpXpuBrYwVNuRP7uUpScIOmR697a9kO7amn0s0=",
+  "Hash": "mmZQIFf4qrLMMJJUVJgD49VD69x5NKgDbDiVtA2NV7M=",
   "Source": "Mvc2",
   "BasePath": "_content/Mvc2",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\27_\\Mvc2\\wwwroot\\img\\toninho.PNG",
+      "SourceId": "Mvc2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\27_\\Mvc2\\wwwroot\\",
+      "BasePath": "_content/Mvc2",
+      "RelativePath": "img/toninho.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\toninho.PNG"
     },
     {
       "Identity": "D:\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\27_\\Mvc2\\wwwroot\\js\\site.js",

@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Desktop\jr\UFSC_CURSOS\DEV2BLU\C-conceitos\27_\Mvc2
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/27_/Mvc2/Views/Galeria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/27_/Mvc2/Views/Home/contato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb250YXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/27_/Mvc2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

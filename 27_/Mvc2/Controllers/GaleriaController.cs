@@ -6,6 +6,7 @@ namespace Mvc2.Controllers
     {
 
 
+        [Route("galeria/index")]
         public IActionResult Index()
         {
             return View();

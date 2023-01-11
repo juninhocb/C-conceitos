@@ -13,15 +13,21 @@ namespace Mvc2.Controllers
             _logger = logger;
         }
 
+        public IActionResult EnterPage()
+        {
+            return RedirectToAction("index");
+        }
+
+        [Route("home/index")]
         public IActionResult Index()
         {
             return View();
         }
 
-        [Route("contato")]
+        [Route("home/contato")]
         public IActionResult Galeria()
         {
-            return View();
+            return View("contato");
         }
 
         public IActionResult Privacy()
