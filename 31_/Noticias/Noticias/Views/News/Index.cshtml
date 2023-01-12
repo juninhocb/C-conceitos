@@ -1,0 +1,46 @@
+﻿@model List<NewsModel>
+
+<div class="text-center"> 
+    <table class="table" id="table-news">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Título</th>
+                <th scope="col">Categoria</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (NewsModel notice in Model)
+                {
+                    <tr>
+                        <th scope="row">@notice.Id</th>
+                        <td>@notice.Title</td>
+                        <td>@notice.Category</td>
+                        <td>
+                            <a type="button" class="btn btn-primary" asp-controller="News" asp-action="Edit"> Editar </a>
+                            <a type="button" class="btn btn-danger" asp-controller="News" asp-action="Delete"> Deletar </a>
+                        </td>
+                    </tr>
+                }
+
+            } else
+            {
+                <tr>
+                    <th scope="row">1</th>
+                        <td>Palmeiras vence outra</td>
+                        <td>Esportes</td>
+                        <td>
+                            <a type="button" class="btn btn-primary" asp-controller="News" asp-action="Edit"> Editar </a>
+                            <a type="button" class="btn btn-danger" asp-controller="News" asp-action="Delete"> Deletar </a>
+                        </td>
+                </tr>
+            }
+               
+        </tbody>
+    </table>
+</div>
+
+<a  role="button" class="btn btn-primary" asp-action="Create" asp-controller="News"> Adicionar Notícia </a>

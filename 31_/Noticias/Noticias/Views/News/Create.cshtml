@@ -1,0 +1,32 @@
+﻿@using Noticias.Enums;
+@model NewsModel
+@{
+    ViewData["Title"] = "Cadastro de Notícias";
+}
+
+<h1> @ViewData["Title"]</h1>
+<form asp-action="Create" asp-controller="News" method="post">
+    <div class="mb-3">
+        <label  class="form-label">Título</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" asp-for="Title" placeholder="Digite o título da notícia">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label" > Descrição </label>
+        <textarea asp-for="Description" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+    </div>
+    <div class="mb-3">
+        <label> Categoria</label>
+        <select asp-for="Category"> 
+            <option value="0"> Selecione </option>
+            <option value="@CategoryEnums.Esportes"> Esportes </option>
+            <option value="@CategoryEnums.Política"> Política </option>
+            <option value="@CategoryEnums.Tecnologias"> Tecnologias </option>
+        </select>
+    </div>
+    <br /> 
+    <br />
+
+    <button  type="submit" class="btn btn-success" asp-controller="News" asp-action="Create"> Cadastrar </button>
+    <a role="button" class="btn btn-danger" asp-controller="News" asp-action="Index"> Voltar </a>
+</form>
