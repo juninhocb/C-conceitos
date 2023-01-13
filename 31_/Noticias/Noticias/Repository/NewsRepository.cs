@@ -40,13 +40,27 @@ namespace Noticias.Repository
 
         public NewsModel FindById(int id)
         {
-            NewsModel notice = _newsRepository.News.Find(id);
-            return notice;
+            List<NewsModel> listNews = _newsRepository.News.ToList(); 
+            foreach (NewsModel noticeCompare in listNews)
+            {
+                if (noticeCompare.Id == id) return noticeCompare;
+            }
+            return null;
         }
 
         public NewsModel Update(NewsModel notice)
         {
-            throw new NotImplementedException();
+            NewsModel contactDB = FindById(notice.Id);
+
+            if (contactDB == null) throw new System.Exception("Ocorreu um problema ao atualizar os dados!");
+
+            contactDB.Title = notice.Title;
+            contactDB.Description = notice.Description;
+            contactDB.Category = notice.Category;
+
+            _newsRepository.News.Update(contactDB);
+            _newsRepository.SaveChanges();
+            return contactDB;
         }
     }
 }

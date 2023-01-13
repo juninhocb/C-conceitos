@@ -1,6 +1,25 @@
 ﻿@model List<NewsModel>
 @{
-    
+    for (int i = 0; i < 3; i++)
+    {
+        switch (Model[i].Category)
+        {
+            case Noticias.Enums.CategoryEnums.Esportes:
+                ViewData[$"Emphasis{i+1}"] = "17.5 21.6 20 29 28 29 30.5 21.6 24 17 17.5 21.6";
+                ViewData[$"Emphasis1{i+1}"] = "M45.5,19.1A22.1,22.1,0,0,0,24,2a21.2,21.2,0,0,0-4.9.6A22,22,0,0,0,24,46a28.1,28.1,0,0,0,4.9-.5A22.1,22.1,0,0,0,45.5,19.1Zm-7,15.6-1.1-3.3H29.5l-2.6,7.6,2.8,2-1.7.5a18.1,18.1,0,0,1-4,.4,17.9,17.9,0,0,1-5.7-.9l2.8-2-2.6-7.6H10.6L9.5,34.7a17,17,0,0,1-3-6.7A14.8,14.8,0,0,1,6,23.9l2.8,2,6.3-4.8-2.3-7.6H9.4a18.3,18.3,0,0,1,9.2-6.6l-1.1,3.2L24,14.7l6.5-4.6L29.4,6.8a18.6,18.6,0,0,1,9.3,6.7H35.2l-2.3,7.6,6.3,4.8L42,23.8A18.9,18.9,0,0,1,38.5,34.7Z";
+                break;            
+            case Noticias.Enums.CategoryEnums.Tecnologias:
+                ViewData[$"Emphasis{i + 1}"] = "17.5 21.6 20 29 28 29 30.5 21.6 24 17 17.5 21.6";
+                ViewData[$"Emphasis1{i + 1}"] = "M372.288 745.792a394.048 394.048 0 0 0 113.728 102.848v-127.744a390.08 390.08 0 0 0-113.728 24.896z m-51.584 24.192a392.96 392.96 0 0 0-60.16 41.6h-1.28a390.336 390.336 0 0 0 205.696 89.6 450.24 450.24 0 0 1-144.256-131.2z m-24.704-230.016c3.968 56.768 20.096 110.208 45.696 157.696a445.696 445.696 0 0 1 144.32-32.896v-124.8h-190.08z m-56.128 0H120.96a390.4 390.4 0 0 0 98.56 233.024c22.208-19.2 46.272-36.224 71.808-50.752a445.312 445.312 0 0 1-51.456-182.272z m445.824 158.784c25.984-47.808 42.24-101.568 46.336-158.72H540.992v124.864c51.072 3.2 99.776 14.976 144.704 33.92z m50.24 24.96c24.448 14.08 47.552 30.464 68.928 48.896a390.4 390.4 0 0 0 98.176-232.576h-114.88a445.312 445.312 0 0 1-52.224 183.68z m-194.944 125.44a394.048 394.048 0 0 0 113.92-102.4 389.888 389.888 0 0 0-113.92-25.728v128.192z m23.104 51.392a390.4 390.4 0 0 0 200.704-88.96h-0.512a392.96 392.96 0 0 0-57.92-40.32 450.24 450.24 0 0 1-142.272 129.28zM341.76 326.144a389.632 389.632 0 0 0-45.76 157.824h190.016V358.976a445.696 445.696 0 0 1-144.256-32.768z m-50.368-24.576a449.216 449.216 0 0 1-71.808-50.56 390.4 390.4 0 0 0-98.56 232.96h118.848a445.312 445.312 0 0 1 51.52-182.4z m194.56-126.208A394.048 394.048 0 0 0 372.48 278.016a390.08 390.08 0 0 0 113.536 24.768V175.36z m-20.992-52.544a390.272 390.272 0 0 0-205.312 89.152h0.512c18.88 15.872 39.168 29.888 60.608 41.92a450.24 450.24 0 0 1 144.192-131.072z m189.76 154.048a394.048 394.048 0 0 0-113.728-102.08v127.808a389.952 389.952 0 0 0 113.728-25.728z m51.392-24.576a392.96 392.96 0 0 0 57.856-40.32h0.384A390.336 390.336 0 0 0 564.16 123.52a450.24 450.24 0 0 1 141.952 128.832z m25.92 231.68a389.632 389.632 0 0 0-46.528-159.168 445.568 445.568 0 0 1-144.512 33.92v125.248h191.04z m56.128 0h114.88a390.4 390.4 0 0 0-98.56-232.96 449.28 449.28 0 0 1-68.736 48.896c29.824 55.424 48.32 117.76 52.416 184.128zM512 960A448 448 0 1 1 512 64a448 448 0 0 1 0 896z";
+                break;
+            case Noticias.Enums.CategoryEnums.Política:
+                ViewData[$"Emphasis{i + 1}"] = "17.5 21.6 20 29 28 29 30.5 21.6 24 17 17.5 21.6";
+                ViewData[$"Emphasis1{i + 1}"] = "M914.29 438.86v-84.87L512 72.92 109.72 353.99v84.87h73.14V768h-73.14v182.86h804.57V768h-73.14V438.86h73.14zM512 162.15L803.06 365.5H220.95L512 162.15z m256 276.71V768h-36.57V438.86H768zM542.12 630.75c10.73 0 19.46 8.73 19.46 19.48 0 10.73-8.73 19.46-19.46 19.46h-57v-38.95h57z m-57-54.86v-38.95h57c10.73 0 19.46 8.73 19.46 19.48 0 10.73-8.73 19.46-19.46 19.46h-57z m-0.54-93.8h-54.32V724.55h54.32V768H365.72V438.86h118.86v43.23z m54.86 242.46h2.68c40.98 0 74.32-33.34 74.32-74.32 0-17.87-6.6-34.07-17.15-46.91 10.55-12.83 17.15-29.03 17.15-46.9 0-40.98-33.34-74.34-74.32-74.34h-2.68v-43.23h118.85V768H539.44v-43.45zM292.57 438.86V768H256V438.86h36.57z m548.57 438.85H182.86v-36.57h658.29v36.57z";
+                break;
+
+        }
+    }
+
 }
 <main>
     
@@ -56,75 +75,112 @@
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-
+    <br />
     <div class="container marketing">
-
-        <!-- Three columns of text below the carousel -->
+        <hr class="featurette-divider">
+        <h2> Destaques </h2>
+        <hr class="featurette-divider">
+        <br />  
         <div class="row">
             <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
+                <svg class="bd-placeholder-img rounded-circle" width="140px" height="140px" role="img" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg aria-label=" Placeholder: 140x140" focusable="false" >
+                    <title>sports-soccer</title>
+                    <g id="Layer_2" data-name="Layer 2">
+                        <g id="invisible_box" data-name="invisible box">
+                            <rect width="48" height="48" fill="none" />
+                        </g>
+                        <g id="Q3_icons" data-name="Q3 icons">
+                            <g>
+                                <polygon points="@ViewData["Emphasis1"]" />
+                                <path d="@ViewData["Emphasis11"]" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
                 <h2 class="fw-normal">@Model[0].Title</h2>
                 <p>@Model[0].Description</p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <input type="hidden" id="@Model[0].Id"/> 
+                <p><a class="btn btn-secondary" role="button" asp-route-id="@Model[0].Id" asp-action="Details" asp-controller="Home">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
+                <svg class="bd-placeholder-img rounded-circle" width="140px" height="140px" role="img" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg aria-label=" Placeholder: 140x140" focusable="false" >
+                    <title>sports-soccer</title>
+                    <g id="Layer_2" data-name="Layer 2">
+                        <g id="invisible_box" data-name="invisible box">
+                            <rect width="48" height="48" fill="none" />
+                        </g>
+                        <g id="Q3_icons" data-name="Q3 icons">
+                            <g>
+                                <polygon points="@ViewData["Emphasis2"]" />
+                                <path d="@ViewData["Emphasis12"]" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
                 <h2 class="fw-normal">@Model[1].Title</h2>
                 <p>@Model[1].Description</p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" role="button" asp-route-id="@Model[1].Id" asp-action="Details" asp-controller="Home">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
+                <svg class="bd-placeholder-img rounded-circle" width="140px" height="140px" role="img" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg aria-label=" Placeholder: 140x140" focusable="false" >
+                    <title>sports-soccer</title>
+                    <g id="Layer_2" data-name="Layer 2">
+                        <g id="invisible_box" data-name="invisible box">
+                            <rect width="48" height="48" fill="none" />
+                        </g>
+                        <g id="Q3_icons" data-name="Q3 icons">
+                            <g>
+                                <polygon points="@ViewData["Emphasis3"]" />
+                                <path d="@ViewData["Emphasis13"]" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
                 <h2 class="fw-normal">@Model[2].Title</h2>
                 <p>@Model[2].Description</p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" role="button" asp-route-id="@Model[2].Id" asp-action="Details" asp-controller="Home">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
         <!-- START THE FEATURETTES -->
-
+        <br />
+        
+        <hr class="featurette-divider">
+        <h2> Todas as notícias</h2>
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1">@Model[0].Title <span class="text-muted">Mais Detalhes.</span></h2>
-                <p class="lead">@Model[0].Description</p>
+        @foreach(NewsModel notice in Model)
+        {
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1"> @notice.Title <a class="text-muted" role="button" asp-route-id="@notice.Id" asp-action="Details" asp-controller="Home">Mais Detalhes.</a></h2>
+                    <p class="lead">@notice.Description</p>
+                </div>
+                <div class="col-md-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+                    <defs>
+                    </defs>
+                    <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                        <path d="M 84.563 16.063 h -4.426 v -2.891 c 0 -2.634 -2.143 -4.776 -4.775 -4.776 H 71.53 v -3.62 C 71.53 2.143 69.388 0 66.754 0 H 5.437 C 2.803 0 0.661 2.143 0.661 4.776 v 73.637 C 0.661 84.802 5.859 90 12.248 90 h 67.187 c 5.461 0 9.904 -5.495 9.904 -12.249 V 20.84 C 89.339 18.206 87.196 16.063 84.563 16.063 z M 12.248 88 c -5.287 0 -9.587 -4.301 -9.587 -9.587 V 4.776 C 2.661 3.245 3.906 2 5.437 2 h 61.317 c 1.531 0 2.776 1.245 2.776 2.776 v 72.975 c 0 4.282 1.786 8.059 4.485 10.249 H 12.248 z M 87.339 77.751 c 0 5.651 -3.546 10.249 -7.904 10.249 s -7.904 -4.598 -7.904 -10.249 V 10.396 h 3.832 c 1.53 0 2.775 1.246 2.775 2.776 v 65.307 c 0 0.553 0.447 1 1 1 s 1 -0.447 1 -1 V 18.063 h 4.426 c 1.53 0 2.775 1.246 2.775 2.776 V 77.751 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        <path d="M 35.662 61.153 h -23.69 c -1.554 0 -2.818 -1.265 -2.818 -2.818 V 34.368 c 0 -1.554 1.264 -2.818 2.818 -2.818 h 23.69 c 1.554 0 2.818 1.264 2.818 2.818 v 23.967 C 38.48 59.889 37.216 61.153 35.662 61.153 z M 11.972 33.55 c -0.451 0 -0.818 0.367 -0.818 0.818 v 23.967 c 0 0.451 0.367 0.818 0.818 0.818 h 23.69 c 0.451 0 0.818 -0.367 0.818 -0.818 V 34.368 c 0 -0.451 -0.367 -0.818 -0.818 -0.818 H 11.972 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        <path d="M 61.756 33.55 H 46.347 c -0.552 0 -1 -0.448 -1 -1 s 0.448 -1 1 -1 h 15.409 c 0.553 0 1 0.448 1 1 S 62.309 33.55 61.756 33.55 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        <path d="M 61.756 42.751 H 46.347 c -0.552 0 -1 -0.448 -1 -1 s 0.448 -1 1 -1 h 15.409 c 0.553 0 1 0.448 1 1 S 62.309 42.751 61.756 42.751 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        <path d="M 61.756 51.952 H 46.347 c -0.552 0 -1 -0.447 -1 -1 s 0.448 -1 1 -1 h 15.409 c 0.553 0 1 0.447 1 1 S 62.309 51.952 61.756 51.952 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        <path d="M 61.756 61.153 H 46.347 c -0.552 0 -1 -0.447 -1 -1 s 0.448 -1 1 -1 h 15.409 c 0.553 0 1 0.447 1 1 S 62.309 61.153 61.756 61.153 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        <path d="M 61.756 70.354 H 10.154 c -0.552 0 -1 -0.447 -1 -1 s 0.448 -1 1 -1 h 51.602 c 0.553 0 1 0.447 1 1 S 62.309 70.354 61.756 70.354 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        <path d="M 61.756 79.556 H 10.154 c -0.552 0 -1 -0.447 -1 -1 s 0.448 -1 1 -1 h 51.602 c 0.553 0 1 0.447 1 1 S 62.309 79.556 61.756 79.556 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        <path d="M 19.513 24.604 c -0.311 0 -0.61 -0.145 -0.803 -0.404 l -7.557 -10.176 v 9.58 c 0 0.552 -0.448 1 -1 1 s -1 -0.448 -1 -1 V 11 c 0 -0.431 0.276 -0.814 0.686 -0.949 c 0.407 -0.134 0.859 0.007 1.117 0.353 l 7.557 10.176 V 11 c 0 -0.552 0.448 -1 1 -1 s 1 0.448 1 1 v 12.604 c 0 0.431 -0.276 0.814 -0.686 0.949 C 19.724 24.587 19.618 24.604 19.513 24.604 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        <path d="M 31.344 18.302 c 0.552 0 1 -0.448 1 -1 s -0.448 -1 -1 -1 h -5.357 V 12 h 5.357 c 0.552 0 1 -0.448 1 -1 s -0.448 -1 -1 -1 h -6.357 c -0.552 0 -1 0.448 -1 1 v 12.604 c 0 0.552 0.448 1 1 1 h 6.357 c 0.552 0 1 -0.448 1 -1 s -0.448 -1 -1 -1 h -5.357 v -4.302 H 31.344 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        <path d="M 38.981 24.604 c -0.015 0 -0.03 0 -0.045 -0.001 c -0.448 -0.02 -0.828 -0.335 -0.929 -0.772 l -2.939 -12.604 c -0.125 -0.538 0.208 -1.076 0.747 -1.201 c 0.535 -0.125 1.075 0.208 1.201 0.747 l 2.131 9.136 l 3.041 -9.222 c 0.135 -0.41 0.518 -0.687 0.95 -0.687 l 0 0 c 0.432 0 0.814 0.277 0.95 0.687 l 3.04 9.221 l 2.131 -9.135 c 0.125 -0.538 0.658 -0.873 1.201 -0.747 c 0.537 0.125 0.872 0.663 0.746 1.201 l -2.939 12.604 c -0.102 0.437 -0.481 0.752 -0.929 0.772 c -0.477 0.009 -0.854 -0.26 -0.995 -0.686 l -3.204 -9.723 l -3.206 9.723 C 39.794 24.329 39.411 24.604 38.981 24.604 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                        <path d="M 58.605 24.604 h -4.702 c -0.553 0 -1 -0.448 -1 -1 s 0.447 -1 1 -1 h 4.702 c 1.186 0 2.15 -0.965 2.15 -2.151 s -0.965 -2.151 -2.15 -2.151 h -1.552 c -2.288 0 -4.15 -1.862 -4.15 -4.151 S 54.766 10 57.054 10 h 3.632 c 0.553 0 1 0.448 1 1 s -0.447 1 -1 1 h -3.632 c -1.186 0 -2.15 0.965 -2.15 2.151 s 0.965 2.151 2.15 2.151 h 1.552 c 2.288 0 4.15 1.862 4.15 4.151 S 60.894 24.604 58.605 24.604 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                    </g>
+                    </svg>
+                </div>
             </div>
-            <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
 
-            </div>
-        </div>
+            <hr class="featurette-divider">
+        }
 
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading fw-normal lh-1">@Model[1].Title<span class="text-muted">Mais Detalhes.</span></h2>
-                <p class="lead">@Model[1].Description</p>
-            </div>
-            <div class="col-md-5 order-md-1">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1">@Model[2].Title <span class="text-muted">Mais Detalhes.</span></h2>
-                <p class="lead">@Model[2].Description</p>
-            </div>
-            <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
 
         <!-- /END THE FEATURETTES -->
 

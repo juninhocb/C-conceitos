@@ -1,0 +1,14 @@
+﻿@model NewsModel
+
+
+<div class="card">
+  <div class="card-header">
+    Detalhes da notícia - @Model.Title
+  </div>
+  <div class="card-body">
+    <h3>@Model.Category</h3>
+    <h5 class="card-title">@Model.Title</h5>
+    <p class="card-text">@Model.Description</p>
+    <a role="button" class="btn btn-primary" asp-action="Index" asp-controller="Home">Voltar a página inicial</a>
+  </div>
+</div>

@@ -1,6 +1,27 @@
 ﻿@model List<NewsModel>
 
-<div class="text-center"> 
+<div > 
+    
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            <button type="button" class="btn btn-danger btn-close close-alert" arial-label="Close"> </button>
+            @TempData["Success"]
+        </div>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            <button type="button" class="btn btn-danger btn-close close-alert" arial-label="Close"> </button>
+            @TempData["Error"]
+        </div>
+    }
+    
+    
+    
+    
+    
     <table class="table" id="table-news">
         <thead>
             <tr>
@@ -19,9 +40,9 @@
                         <th scope="row">@notice.Id</th>
                         <td>@notice.Title</td>
                         <td>@notice.Category</td>
-                        <td>
-                            <a type="button" class="btn btn-primary" asp-controller="News" asp-action="Edit"> Editar </a>
-                            <a type="button" class="btn btn-danger" asp-controller="News" asp-action="Delete"> Deletar </a>
+                        <td class="text-center">
+                            <a type="button" class="btn btn-primary" asp-route-id="@notice.Id" asp-controller="News" asp-action="Edit"> Editar </a>
+                            <a type="button" class="btn btn-danger" asp-route-id="@notice.Id" asp-controller="News" asp-action="Delete"> Deletar </a>
                         </td>
                     </tr>
                 }

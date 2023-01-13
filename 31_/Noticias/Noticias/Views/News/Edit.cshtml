@@ -28,6 +28,6 @@
     <br />
     <br />
 
-    <button type="submit" class="btn btn-success" asp-controller="News" asp-action="Create"> Alterar </button>
-    <a role="button" class="btn btn-danger" asp-controller="News" asp-action="Index"> Voltar </a>
+    <button type="submit" class="btn btn-success" asp-route-id="@Model.Id" asp-controller="News" asp-action="Edit"> Alterar </button>
+    <a role="button" class="btn btn-danger" asp-route-id="@Model.Id" asp-controller="News" asp-action="Index"> Voltar </a>
 </form>

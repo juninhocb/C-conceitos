@@ -46,6 +46,23 @@ namespace Noticias.Controllers
             return View(notice);
         }
 
+        [HttpPost]
+        public IActionResult Edit(NewsModel notice)
+        {
+
+            try
+            {
+                _newsRepository.Update(notice);
+                TempData["Success"] = "Contato alterado com sucesso!";
+                return RedirectToAction("Index");
+            }
+            catch (Exception err)
+            {
+                TempData["Error"] = $"Não foi possível alterar o contato. Detalhe do erro: {err.Message}";
+                return RedirectToAction("Index");
+            }
+        }
+
         public IActionResult Delete(int id)
         {
             NewsModel notice = _newsRepository.FindById(id);
