@@ -1,9 +1,11 @@
-﻿using Agenda_Contatos.Models;
+﻿using Agenda_Contatos.Filters;
+using Agenda_Contatos.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace Agenda_Contatos.Controllers
 {
+    [PageForLoggedUser]
     public class HomeController : Controller
     {
        public IActionResult Index()

@@ -9,6 +9,6 @@ namespace Agenda_Contatos.Data
         }
 
         public DbSet<ContactModel> Contacts { get; set; }
-
+        public DbSet<UsuarioModel> Users{ get; set; }
     }
 }

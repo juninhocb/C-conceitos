@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uKhzZPiWh45KoudxkSSiGQCiKyiMOqrRxpbpy++uvTS7eV1shOz7BFdpLgkVuC80sCwPBT+MGNs8v/ai8KOo9Q==",
+  "dgSpecHash": "O1ZXZ86SM8yAaDND43DJSBxdMZwcrmrykLT5nTr28Rj41oqL/71Rwt13qzCByW96z/wGiIy302ePnfOSY0Q5Nw==",
   "success": true,
   "projectFilePath": "D:\\Users\\carlos\\Desktop\\jr\\Curso-Youtube-MVC\\WEB-SITE-MVC\\2\\Agenda-Contatos\\Agenda-Contatos\\Agenda-Contatos.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\junin\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\junin\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\junin\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\junin\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\junin\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\junin\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\junin\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

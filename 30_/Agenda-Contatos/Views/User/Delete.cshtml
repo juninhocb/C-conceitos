@@ -1,0 +1,11 @@
+﻿@model UsuarioModel
+@{
+    ViewData["Title"] = "Conirmação apagar o usuário";
+}
+
+<div class="text-center"> 
+    <h3 class="display-6"> Deseja apagar o usuário? (@Model.Name)</h3>
+
+    <a class="btn btn-success btn-block" role="button" asp-route-id="@Model.id" asp-controller="User" asp-action="DeleteUser"> Sim</a>
+    <a class="btn btn-danger btn-block" role="button" asp-controller="User" asp-action="Index"> Não</a>
+</div>

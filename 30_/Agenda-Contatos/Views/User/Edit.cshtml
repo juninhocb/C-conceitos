@@ -1,0 +1,46 @@
+﻿@using Agenda_Contatos.Enums;
+@model UsuarioModel
+@{
+    ViewData["Title"] = "Editar usuário";
+}
+
+
+<div class="text-center">
+
+    <h1 class="display-4"> Editar usuário</h1>
+</div>
+
+<form asp-controller="User" asp-action="Edit" method="post">
+    <input type="hidden" asp-for="id" />
+    <div class="form-group">
+        <label for="name">Nome</label>
+        <input type="text" asp-for="Name" class="form-control" aria-describedby="emailHelp" placeholder="Digite o nome do usuário">
+        @Html.ValidationMessageFor(x => x.Name)
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input type="email" asp-for="Email" class="form-control " placeholder="Digite o email do usuário">
+        @Html.ValidationMessageFor(x => x.Email)
+    </div>
+    <div>
+        <label>Login</label>
+        <input type="tel" asp-for="Login" class="form-control" placeholder="Digite o login do usuário" />
+        <!--@Html.ValidationMessageFor(x => x.Login)-->
+    </div>
+    <br />
+    <div class="form-group">
+        <label>Perfil do usuário</label>
+        <select class="form-control" asp-for="Profile">
+            <option value="0">Selecione</option>
+            <option value="@ProfileEnum.Administrator">Administrador</option>
+            <option value="@ProfileEnum.Default">Padrão</option>
+        </select>
+    </div>
+    <br />
+    <div class="gap-2" role="group" aria-label="Basic example">
+        <button type="submit" class="btn btn-success">Salvar Alterações</button>
+        <a role="button" class="btn btn-warning text-white" asp-controller="User" asp-action="Clean">Limpar</a>
+        <a role="button" class="btn btn-danger" asp-controller="User" asp-action="Index">Voltar</a>
+    </div>
+
+</form>

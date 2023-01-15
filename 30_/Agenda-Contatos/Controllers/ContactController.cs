@@ -1,4 +1,5 @@
 ﻿using Agenda_Contatos.Data;
+using Agenda_Contatos.Filters;
 using Agenda_Contatos.Models;
 using Agenda_Contatos.Repository;
 using Microsoft.AspNetCore.Mvc;
@@ -6,6 +7,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure.Internal;
 
 namespace Agenda_Contatos.Controllers
 {
+    [PageForLoggedUser]
     public class ContactController : Controller
     {
         private readonly IContactRepository _contactRepository;
@@ -24,13 +26,7 @@ namespace Agenda_Contatos.Controllers
 
         public IActionResult Create()
         {
-            if (TempData["Success"] != null)
-            {
-                Console.WriteLine("Ok."); 
-            }else
-            {
-                Console.WriteLine("Não foi.");
-            }
+            
             return View();
         }
 

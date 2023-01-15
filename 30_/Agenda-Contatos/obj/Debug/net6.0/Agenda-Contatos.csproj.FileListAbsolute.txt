@@ -85,3 +85,5 @@ D:\Users\carlos\Desktop\jr\Curso-Youtube-MVC\WEB-SITE-MVC\2\Agenda-Contatos\Agen
 D:\Users\carlos\Desktop\jr\Curso-Youtube-MVC\WEB-SITE-MVC\2\Agenda-Contatos\Agenda-Contatos\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\Users\carlos\Desktop\jr\Curso-Youtube-MVC\WEB-SITE-MVC\2\Agenda-Contatos\Agenda-Contatos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Users\carlos\Desktop\jr\Curso-Youtube-MVC\WEB-SITE-MVC\2\Agenda-Contatos\Agenda-Contatos\obj\Debug\net6.0\Agenda-Contatos.csproj.CopyComplete
+D:\Users\carlos\Desktop\jr\Curso-Youtube-MVC\WEB-SITE-MVC\2\Agenda-Contatos\Agenda-Contatos\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutDeslogado.cshtml.rz.scp.css
+D:\Users\carlos\Desktop\jr\Curso-Youtube-MVC\WEB-SITE-MVC\2\Agenda-Contatos\Agenda-Contatos\bin\Debug\net6.0\Newtonsoft.Json.dll

@@ -1,0 +1,53 @@
+﻿@using Agenda_Contatos.Enums;
+@model UsuarioModel
+@{
+    ViewData["Title"] = "Cadastro de usuários";
+}
+
+
+<div class="text-center">
+
+    <h1 class="display-4"> Cadastrar novo usuário</h1>
+
+</div>
+
+
+<form asp-controller="User" asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="name">Nome</label>
+        <input type="text" asp-for="Name" class="form-control" aria-describedby="emailHelp" placeholder="Digite o nome do usuário">
+        <!--@Html.ValidationMessageFor(x => x.Name)-->
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input type="email" asp-for="Email" class="form-control " placeholder="Digite o email do usuário">
+        <!--@Html.ValidationMessageFor(x => x.Email)-->
+    </div>
+    <div>
+        <label>Login</label>
+        <input type="tel" asp-for="Login" class="form-control" placeholder="Digite o login do usuário" />
+        <!--@Html.ValidationMessageFor(x => x.Login)-->
+    </div>
+    <div>
+        <label>Senha</label>
+        <input type="password" asp-for="Password" class="form-control" placeholder="Digite a senha do usuário" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label>Perfil do usuário</label>
+        <select class="form-control" asp-for="Profile">
+            <option value ="0">Selecione</option>
+            <option value ="@ProfileEnum.Administrator">Administrador</option>
+            <option value="@ProfileEnum.Default">Padrão</option>
+        </select>
+    </div>
+    <br />
+    <div class="gap-2" role="group" aria-label="Basic example">
+        <button type="submit" class="btn btn-success"> Salvar </button>
+        <a role="button" class="btn btn-warning text-white" asp-controller="User" asp-action="Clean">Limpar</a>
+        <a role="button" class="btn btn-danger" asp-controller="User" asp-action="Index">Voltar</a>
+    </div>
+
+</form>
+
+
