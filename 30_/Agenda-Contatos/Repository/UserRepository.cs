@@ -20,6 +20,19 @@ namespace Agenda_Contatos.Repository
             return user;
         }
 
+        public UsuarioModel ChangePassword(ChangePasswordModel changePassword)
+        {
+            UsuarioModel userDB = FindById(changePassword.Id);
+            if (userDB == null) throw new Exception("Usuário não encontrado");
+            if (!userDB.ValidPassword(changePassword.CurrentPassword)) throw new Exception("Senha atual não confere");
+            if (userDB.ValidPassword(changePassword.NewPassoword)) throw new Exception("Nova senha deve ser diferente da senha atual");
+            userDB.SetNewPassword(changePassword.NewPassoword);
+            userDB.updateDate= DateTime.Now;
+            _userRepository.Users.Update(userDB);
+            _userRepository.SaveChanges();
+            return userDB;
+        }
+
         public UsuarioModel Delete(int id)
         {
             throw new NotImplementedException();
@@ -40,7 +53,9 @@ namespace Agenda_Contatos.Repository
 
         public List<UsuarioModel> FindAll()
         {
-            return _userRepository.Users.ToList();
+            return _userRepository.Users
+                .Include(u => u.Contacts)
+                .ToList();
         }
 
         public UsuarioModel FindById(int id)

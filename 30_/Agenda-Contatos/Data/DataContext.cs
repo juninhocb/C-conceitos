@@ -1,4 +1,5 @@
-﻿using Agenda_Contatos.Models;
+﻿using Agenda_Contatos.Data.Map;
+using Agenda_Contatos.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Agenda_Contatos.Data
@@ -10,5 +11,11 @@ namespace Agenda_Contatos.Data
 
         public DbSet<ContactModel> Contacts { get; set; }
         public DbSet<UsuarioModel> Users{ get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new ContactMap());
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

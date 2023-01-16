@@ -17,6 +17,10 @@ namespace Agenda_Contatos.Models
         [Phone(ErrorMessage = "O número de telefone informado é inválido")]
         public string Phone { get; set; }
 
+        public int? UserId { get; set; }
+
+        public UsuarioModel? User { get; set; }
+
 
     }
 }

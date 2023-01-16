@@ -40,6 +40,8 @@
                 <th scope="col">Nome</th>
                 <th scope="col">Email</th>
                 <th scope="col">Login</th>
+                <th scope="col">Perfil</th>
+                <th scope="col">Total de Contatos </th>
                 <th scope="col">Data de cadastro</th>
                 <th scope="col"></th>
             </tr>
@@ -54,6 +56,12 @@
                         <td>@user.Name</td>
                         <td>@user.Email</td>
                         <td>@user.Login</td>
+                        <td>@(user.Profile == Agenda_Contatos.Enums.ProfileEnum.Administrator ? "Administrador" : "Padrão")</td>
+                        <td>
+                            <a href="javascript:" user-id="@user.id" class="btn btn-success btn-sm btn-contacts" > 
+                                @(user.Contacts != null && user.Contacts.Any() ? user.Contacts.Count() : 0) 
+                            </a>
+                        </td>
                         <td>@user.registerDate</td>
                         <td>
                             <div class="gap-2" role="group" aria-label="Basic example">
@@ -66,5 +74,25 @@
             }
         </tbody>
     </table>
+
+
+
+    <div id="modalContactsUser" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-lg ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">List of Contacts</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="listOfUserContacts"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 </div>

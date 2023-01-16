@@ -26,6 +26,8 @@ namespace Agenda_Contatos.Models
         public DateTime registerDate { get; set; }
         public DateTime? updateDate { get; set; } // interrogação diz que o campo pode ser nulo
 
+        public virtual List<ContactModel> Contacts { get; set; }
+
         public bool ValidPassword(string password)
         {
             return Password.Equals(password.GerarHash());
@@ -43,6 +45,10 @@ namespace Agenda_Contatos.Models
             return newPassword;
         }
 
+        public void SetNewPassword(string newPassword)
+        {
+            Password = newPassword.GerarHash();
+        }
 
 
     }

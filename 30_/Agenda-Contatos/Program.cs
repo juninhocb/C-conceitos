@@ -17,6 +17,7 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<IContactRepository, ContactRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ISession, Session>();
+builder.Services.AddScoped<IEmail, Email>();
 
 builder.Services.AddSession(o =>
 {

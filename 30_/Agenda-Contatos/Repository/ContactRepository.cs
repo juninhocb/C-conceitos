@@ -26,9 +26,9 @@ namespace Agenda_Contatos.Repository
             return _contactRepository.Contacts.FirstOrDefault(x => x.Id == id);
         }
 
-        public List<ContactModel> FindAll()
+        public List<ContactModel> FindAll(int userId)
         {
-            return _contactRepository.Contacts.ToList();
+            return _contactRepository.Contacts.Where(x => x.UserId == userId).ToList();
         }
 
         public ContactModel Get(int id)

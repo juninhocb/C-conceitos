@@ -9,10 +9,12 @@ namespace Agenda_Contatos.Controllers
     public class UserController : Controller
     {
         private readonly IUserRepository _userRepository;
+        private readonly IContactRepository _contactRepository;
 
-        public UserController(IUserRepository userRepository)
+        public UserController(IUserRepository userRepository, IContactRepository contactRepository) 
         {
             _userRepository = userRepository;
+            _contactRepository = contactRepository;
         }
         public IActionResult Index()
         {
@@ -90,6 +92,12 @@ namespace Agenda_Contatos.Controllers
                 TempData["Error"] = $"Não foi possível deletar o usuário. Detalhe do erro: {err.Message}";
                 return RedirectToAction("Index");
             }
+        }
+
+        public IActionResult ListContactsByUserId(int id)
+        {
+            List<ContactModel> contacts = _contactRepository.FindAll(id);
+            return PartialView("_UserContacts", contacts);
         }
 
 

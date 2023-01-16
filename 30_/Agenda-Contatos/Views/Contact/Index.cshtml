@@ -44,42 +44,6 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>mark@hotmail.com</td>
-                <td>11 99823-2342</td>
-                <td>
-                    <div class="gap-2" role="group" aria-label="Basic example">
-                        <a role="button" class="btn btn-primary" asp-controller="Contact" asp-action="Edit">Editar</a>
-                        <a role="button" class="btn btn-danger" asp-controller="Contact" asp-action="Delete">Apagar</a>
-                    </div>
-                </td>         
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>jacbobsain@hotmail.com</td>
-                <td>11 99238-1242</td>
-                <td>
-                    <div class="gap-2" role="group" aria-label="Basic example">
-                        <a role="button" class="btn btn-primary" asp-controller="Contact" asp-action="Edit">Editar</a>
-                        <a role="button" class="btn btn-danger" asp-controller="Contact" asp-action="Delete">Apagar</a>
-                   </div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Nathan</td>
-                <td>nath123_12@gmail.com</td>
-                <td>11 99345-3495</td>
-                <td>
-                    <div class="gap-2" role="group" aria-label="Basic example">
-                        <a role="button" class="btn btn-primary" asp-controller="Contact" asp-action="Edit">Editar</a>
-                        <a role="button" class="btn btn-danger" asp-controller="Contact" asp-action="Delete">Apagar</a>
-                    </div>
-                </td>
-            </tr>
             @if(Model != null && Model.Any())
             {
                 foreach (ContactModel contact in Model)

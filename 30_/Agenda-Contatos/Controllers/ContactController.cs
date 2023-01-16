@@ -11,14 +11,17 @@ namespace Agenda_Contatos.Controllers
     public class ContactController : Controller
     {
         private readonly IContactRepository _contactRepository;
+        private readonly Helper.ISession _session;
 
-        public ContactController(IContactRepository contactRepository)
+        public ContactController(IContactRepository contactRepository, Helper.ISession session)
         {
             _contactRepository= contactRepository;
+            _session= session;
         }
         public IActionResult Index()
         {
-            List<ContactModel> contacts = _contactRepository.FindAll();
+            UsuarioModel userLogged = _session.SearchUserSession();
+            List<ContactModel> contacts = _contactRepository.FindAll(userLogged.id);
             
             return View(contacts);
             
@@ -52,10 +55,15 @@ namespace Agenda_Contatos.Controllers
         [HttpPost]
         public IActionResult Create(ContactModel contact)
         {
+            
             try
             {
+
+                
                 if (ModelState.IsValid)
                 {
+                    UsuarioModel userLogged = _session.SearchUserSession();
+                    contact.UserId = userLogged.id;
                     _contactRepository.Add(contact);
                     TempData["Success"] = "Contato cadastrado com sucesso!";
                     return RedirectToAction("Index");
@@ -77,6 +85,8 @@ namespace Agenda_Contatos.Controllers
 
                 if (ModelState.IsValid)
                 {
+                    UsuarioModel userLogged = _session.SearchUserSession();
+                    contact.UserId = userLogged.id;
                     _contactRepository.Update(contact);
                     TempData["Success"] = "Contato alterado com sucesso!";
                     return RedirectToAction("Index");

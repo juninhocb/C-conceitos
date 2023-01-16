@@ -9,11 +9,13 @@ namespace Agenda_Contatos.Controllers
     {
         private readonly IUserRepository _userRepository;
         private readonly Helper.ISession _session;
+        private readonly IEmail _email;
         
-        public LoginController(IUserRepository userRepository, Helper.ISession session)
+        public LoginController(IUserRepository userRepository, Helper.ISession session, IEmail email)
         {
             _userRepository = userRepository;
             _session = session;
+            _email = email;
         }
 
         public IActionResult Index()
@@ -89,8 +91,19 @@ namespace Agenda_Contatos.Controllers
                     if (user != null)
                     {
                         string newPassword = user.GenPassword();
+                        string message = $"Sua nova senha é: {newPassword}";
+                        bool isSend = _email.Send(user.Email, "Sistemas de contatos - Nova Senha", message);
+                        
+                        if (isSend)
+                        {
+                            _userRepository.Update(user);
+                            TempData["Success"] = "Um email foi enviado com sua nova senha";
+                        } else
+                        {
+                            TempData["Error"] = "Não foi possível enviar o E-mail";
+                        }
 
-                        TempData["Success"] = "Um email foi enviado com sua nova senha";
+
                     } else
                     {
                         TempData["Error"] = "Usuário não encotnrado";

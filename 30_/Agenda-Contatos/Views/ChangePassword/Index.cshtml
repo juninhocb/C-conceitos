@@ -1,0 +1,57 @@
+﻿@using Agenda_Contatos.Enums;
+@model ChangePasswordModel
+@{
+    ViewData["Title"] = "Alterar Senha";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4"> Alterar Senha</h1>
+</div>
+
+@if (TempData["Success"] != null)
+{
+            <div class="alert alert-success" role="alert">
+                <button type="button" class="btn btn-danger btn-close close-alert" arial-label="Close"> </button>
+        @TempData["Success"]
+            </div>
+}
+
+@if (TempData["Error"] != null)
+{
+            <div class="alert alert-danger" role="alert">
+                <button type="button" class="btn btn-danger btn-close close-alert" arial-label="Close"> </button>
+        @TempData["Error"]
+            </div>
+}
+
+<form asp-controller="ChangePassword" asp-action="Change" method="post">
+
+    <div class="form-group">
+        <label for="currentPassword">Senha Atual</label>
+        <input type="password" asp-for="CurrentPassword" class="form-control" placeholder="Digite a senha atual do usuário">
+        @Html.ValidationMessageFor(x => x.CurrentPassword)
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="newPassword">Nova Senha</label>
+        <input type="password" asp-for="NewPassoword" class="form-control" placeholder="Nova senha">
+        @Html.ValidationMessageFor(x => x.NewPassoword)
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="confirmPassword">Confirmar nova senha</label>
+        <input type="password" asp-for="ConfirmPassword" class="form-control" placeholder="Confirmar senha">
+        @Html.ValidationMessageFor(x => x.ConfirmPassword)  
+    </div>
+
+    <br />
+   
+
+    <div class="gap-2" role="group" aria-label="Basic example">
+        <button type="submit" class="btn btn-success">Salvar Alterações</button>
+        <a role="button" class="btn btn-warning text-white" asp-controller="User" asp-action="Clean">Limpar</a>
+        <a role="button" class="btn btn-danger" asp-controller="User" asp-action="Index">Voltar</a>
+    </div>
+
+</form>

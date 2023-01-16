@@ -5,7 +5,7 @@ namespace Agenda_Contatos.Repository
     public interface IContactRepository
     {
         ContactModel FindById(int id);
-        List<ContactModel> FindAll();
+        List<ContactModel> FindAll(int userId);
         ContactModel Add(ContactModel contact);
         ContactModel Update(ContactModel contact);
         ContactModel Delete(int id);

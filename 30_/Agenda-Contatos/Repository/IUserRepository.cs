@@ -16,5 +16,7 @@ namespace Agenda_Contatos.Repository
         UsuarioModel GetUserByLogin(string login);
         UsuarioModel FindUserByLoginAndEmail(string email, string login);
 
+        UsuarioModel ChangePassword(ChangePasswordModel changePassword);
+
     }
 }
