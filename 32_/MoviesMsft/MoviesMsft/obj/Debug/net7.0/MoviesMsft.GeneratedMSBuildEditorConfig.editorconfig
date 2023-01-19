@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MoviesMsft
+build_property.RootNamespace = MoviesMsft
+build_property.ProjectDir = D:\Users\carlos\Desktop\jr\UFSC_CURSOS\DEV2BLU\C-conceitos\32_\MoviesMsft\MoviesMsft\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Users\carlos\Desktop\jr\UFSC_CURSOS\DEV2BLU\C-conceitos\32_\MoviesMsft\MoviesMsft
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Components/Component.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Movies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW92aWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Movies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW92aWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Movies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW92aWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Movies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW92aWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Movies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW92aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Views/Explorer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwbG9yZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Views/Explorer/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwbG9yZXJcV2VsY29tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/32_/MoviesMsft/MoviesMsft/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9t884rvah5

@@ -1,0 +1,43 @@
+﻿@{
+    //Layout = null; // Anula o efeito do layout padrão (shared)
+    /*
+     * The layout specified can use a full path (for example, /Pages/Shared/_Layout.cshtml or /Views/Shared/_Layout.cshtml)
+     * or a partial name (example: _Layout).
+     */
+    Layout = "_Layout";   //Forma explícita de chamar o arquivo de componente (layout) - definida no arquivo _ViewStart.cshtml
+    ViewData["Title"] = "Explorer";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Explorer</h1>
+    <br />
+    <p> @ViewData["Compartilhar"]</p>
+    <br />
+    <div> 
+        <p> App Settings - Json</p>
+        <p> @ViewData["AppSettingsJson-Teste"]</p>
+        <p> @ViewData["AppSettingsJson-Position-Title"]</p>
+        <p> @ViewData["AppSettingsJson-Position-Name"]</p>
+    </div>
+    
+    <br />
+    <section>
+        <p> Caso a página fique fora do ar, teremos uma imagem como a seguir </p>
+        <img src="~/images/fora-do-ar.PNG" class="img" alt="My image" />
+    </section>
+    <section>
+        <p> Imagem carregada a partir da StaticFiles </p>
+        <img src="~/image.JPG" class="img" asp-append-version="true" alt="Test">
+        <p>
+            A imagem é disponibilizada ao publico com acesso a aplicação no link a seguir: <a href="https://localhost:7091/image.JPG"> link </a>
+        </p>
+    </section>
+    <section>
+        <p> Imagem carregada a partir da StaticFiles - Routing </p>
+        <img src="~/route.png" class="img" asp-append-version="true" alt="Test">
+        <p>
+            A imagem é disponibilizada ao publico com acesso a aplicação no link a seguir: <a href="https://localhost:7091/route.png"> link </a>
+        </p>
+    </section>
+
+</div>
