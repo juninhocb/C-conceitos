@@ -3,7 +3,9 @@ Framework .NET 4.7.2 e 4.8
 
 HTML5 
 
-CSS3
+CSS3 - Bootstrap
+
+Javascript - JQuery
 
 ## Projetos Realizados.
 
