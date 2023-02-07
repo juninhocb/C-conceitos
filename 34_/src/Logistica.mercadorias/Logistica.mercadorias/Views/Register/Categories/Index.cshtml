@@ -21,7 +21,7 @@
             <div class="form-control col-12">
                 <label> Nome </label>
                 <br>
-                <input asp-for="Name" class="form-control" placeholder="Nome da categoria">
+                <input type="text" asp-for="Name" class="form-control" placeholder="Nome da categoria">
                 @Html.ValidationMessageFor(category => category.Name)
             </div>
             <br/>

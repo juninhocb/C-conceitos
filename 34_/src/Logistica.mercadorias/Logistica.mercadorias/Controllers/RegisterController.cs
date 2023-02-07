@@ -1,6 +1,5 @@
 ﻿using Logistica.mercadorias.Interfaces;
 using Logistica.mercadorias.Models;
-using Logistica.mercadorias.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Logistica.mercadorias.Controllers
@@ -35,18 +34,27 @@ namespace Logistica.mercadorias.Controllers
         [HttpPost]
         public IActionResult CreateCategory(CategoryModel category) {
             
-            int status = _categoryRepository.Save(category);
-            if (ModelState.IsValid)
+            try
             {
-                if (status == 1)
+                if (ModelState.IsValid)
                 {
-                    TempData["Success"] = "Salvo com sucesso!";
-                    return RedirectToAction("Categories");
+
+                    int status = _categoryRepository.Save(category);
+                    if (status == 1)
+                    {
+                        TempData["Success"] = "Salvo com sucesso!";
+                        return RedirectToAction("Categories");
+                    }
                 }
             }
-            
-            TempData["Error"] = "Não foi possível salvar a categoria!";
-            throw new SystemException("Erro ao tentar salvar a categoria");
+            catch (Exception ex)
+            {
+
+                TempData["Error"] = "Não foi possível salvar a categoria! Err:" + ex.Message;
+                throw new SystemException("Erro ao tentar salvar a categoria");
+            }
+            ViewBag.ListCategories = _categoryRepository.FindAll();
+            return View("~/Views/Register/Categories/Index.cshtml", category);
         }
 
         [HttpDelete]

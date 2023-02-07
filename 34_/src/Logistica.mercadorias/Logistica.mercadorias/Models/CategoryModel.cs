@@ -8,7 +8,7 @@ namespace Logistica.mercadorias.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
-        [Required(ErrorMessage ="Por favor, insira o nome da categoria.")]
+        [Required(ErrorMessage = "Por favor, insira o nome da categoria.")]
         public string Name { get; set; }
     
 
