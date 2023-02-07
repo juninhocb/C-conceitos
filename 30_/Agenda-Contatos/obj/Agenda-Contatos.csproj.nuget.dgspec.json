@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\carlos\\Desktop\\jr\\Curso-Youtube-MVC\\WEB-SITE-MVC\\2\\Agenda-Contatos\\Agenda-Contatos\\Agenda-Contatos.csproj": {}
+    "D:\\Users\\carlos\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\30_\\Agenda-Contatos\\Agenda-Contatos.csproj": {}
   },
   "projects": {
-    "D:\\Users\\carlos\\Desktop\\jr\\Curso-Youtube-MVC\\WEB-SITE-MVC\\2\\Agenda-Contatos\\Agenda-Contatos\\Agenda-Contatos.csproj": {
+    "D:\\Users\\carlos\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\30_\\Agenda-Contatos\\Agenda-Contatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\carlos\\Desktop\\jr\\Curso-Youtube-MVC\\WEB-SITE-MVC\\2\\Agenda-Contatos\\Agenda-Contatos\\Agenda-Contatos.csproj",
+        "projectUniqueName": "D:\\Users\\carlos\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\30_\\Agenda-Contatos\\Agenda-Contatos.csproj",
         "projectName": "Agenda-Contatos",
-        "projectPath": "D:\\Users\\carlos\\Desktop\\jr\\Curso-Youtube-MVC\\WEB-SITE-MVC\\2\\Agenda-Contatos\\Agenda-Contatos\\Agenda-Contatos.csproj",
+        "projectPath": "D:\\Users\\carlos\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\30_\\Agenda-Contatos\\Agenda-Contatos.csproj",
         "packagesPath": "C:\\Users\\junin\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\carlos\\Desktop\\jr\\Curso-Youtube-MVC\\WEB-SITE-MVC\\2\\Agenda-Contatos\\Agenda-Contatos\\obj\\",
+        "outputPath": "D:\\Users\\carlos\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\30_\\Agenda-Contatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

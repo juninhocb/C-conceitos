@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O1ZXZ86SM8yAaDND43DJSBxdMZwcrmrykLT5nTr28Rj41oqL/71Rwt13qzCByW96z/wGiIy302ePnfOSY0Q5Nw==",
+  "dgSpecHash": "C9luB6c/ZP2mT4yNXU6Geor4OMO9dx1f9CK2hvRCvnVCOD8Oqn4Y/bF3IBP7UAYR2urb3YVkX3PubnXhI2Ij1w==",
   "success": true,
-  "projectFilePath": "D:\\Users\\carlos\\Desktop\\jr\\Curso-Youtube-MVC\\WEB-SITE-MVC\\2\\Agenda-Contatos\\Agenda-Contatos\\Agenda-Contatos.csproj",
+  "projectFilePath": "D:\\Users\\carlos\\Desktop\\jr\\UFSC_CURSOS\\DEV2BLU\\C-conceitos\\30_\\Agenda-Contatos\\Agenda-Contatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\junin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\junin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,0 +1,76 @@
+﻿@model CategoryModel
+@{
+    List<CategoryModel> ListCategories = ViewBag.ListCategories; 
+}
+
+<div>
+    
+    @await Html.PartialAsync("_MessageActionPartial")
+
+    <h1> Categorias </h1>
+
+    <hr />  
+
+    @await Html.PartialAsync("~/Views/Register/Categories/_ListCategoriesPartial.cshtml", ListCategories)
+
+    <hr />
+
+    @using (Html.BeginForm("CreateCategory", "Register", FormMethod.Post))
+    {
+        <div class="#" id="form-categgory"> 
+            <div class="form-control col-12">
+                <label> Nome </label>
+                <br>
+                <input asp-for="Name" class="form-control" placeholder="Nome da categoria">
+                @Html.ValidationMessageFor(category => category.Name)
+            </div>
+            <br/>
+            <div class="form-control">
+               <a asp-controller="Register" asp-action="Index" role="button" class="btn btn-primary"> Voltar </a>
+               <button type="submit" class="btn btn-outline-primary"> Salvar categoria </button> 
+               <button type="button" onclick="confirmDeleteModal()" class="btn btn-danger"> Excluir Categoria </button>
+            </div>
+        </div>   
+    }
+
+</div>
+
+<div id="delete-modal" class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Método de exclusão </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Deseja prosseguir nesta ação?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button id="btn-confirm-delete" type="button" class="btn btn-primary"> Confirmar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+@section Scripts{
+    <script>
+        $('#delete-modal').modal('hide');
+        function confirmDeleteModal() {
+            let categoryId = $('#selected-category').val();
+            $('#delete-modal').modal('show');
+            $('#btn-confirm-delete').click(() => {
+                $.ajax({
+                    method: 'DELETE', 
+                    url: '@Url.Action("DeleteCategory", "Register")',
+                    data: { id: categoryId}
+                }).always(() => {
+                    $('#delete-modal').modal('hide');
+                    window.location.reload('true');
+                });
+            });
+        }
+
+    </script>
+    
+}

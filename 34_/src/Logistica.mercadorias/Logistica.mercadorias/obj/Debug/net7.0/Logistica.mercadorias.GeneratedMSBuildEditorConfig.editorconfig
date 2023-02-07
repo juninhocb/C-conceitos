@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Logistica.mercadorias
+build_property.RootNamespace = Logistica.mercadorias
+build_property.ProjectDir = D:\Users\carlos\Desktop\jr\UFSC_CURSOS\DEV2BLU\C-conceitos\34_\src\Logistica.mercadorias\Logistica.mercadorias\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Users\carlos\Desktop\jr\UFSC_CURSOS\DEV2BLU\C-conceitos\34_\src\Logistica.mercadorias\Logistica.mercadorias
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/34_/src/Logistica.mercadorias/Logistica.mercadorias/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/34_/src/Logistica.mercadorias/Logistica.mercadorias/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/34_/src/Logistica.mercadorias/Logistica.mercadorias/Views/Register/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/34_/src/Logistica.mercadorias/Logistica.mercadorias/Views/Register/Categories/_ListCategoriesPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcQ2F0ZWdvcmllc1xfTGlzdENhdGVnb3JpZXNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/34_/src/Logistica.mercadorias/Logistica.mercadorias/Views/Register/Clients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcQ2xpZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/34_/src/Logistica.mercadorias/Logistica.mercadorias/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/34_/src/Logistica.mercadorias/Logistica.mercadorias/Views/Register/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/34_/src/Logistica.mercadorias/Logistica.mercadorias/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/34_/src/Logistica.mercadorias/Logistica.mercadorias/Views/Shared/_MessageActionPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZXNzYWdlQWN0aW9uUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/34_/src/Logistica.mercadorias/Logistica.mercadorias/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/34_/src/Logistica.mercadorias/Logistica.mercadorias/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/34_/src/Logistica.mercadorias/Logistica.mercadorias/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/carlos/Desktop/jr/UFSC_CURSOS/DEV2BLU/C-conceitos/34_/src/Logistica.mercadorias/Logistica.mercadorias/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2tzzdty6qw

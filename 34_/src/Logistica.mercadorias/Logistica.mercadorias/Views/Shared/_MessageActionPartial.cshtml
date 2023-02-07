@@ -1,0 +1,15 @@
+﻿@if(TempData["Success"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        <button type="button" class="btn-close d-flex justify-content-evenly " data-bs-dismiss="alert" aria-label="Close"></button>
+        <p class="mt-4"> @TempData["Success"] </p>
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        <button type="button" class="btn-close d-flex justify-content-evenly " data-bs-dismiss="alert" aria-label="Close"></button>
+        <p class="mt-4"> @TempData["Error"] </p>
+    </div>
+}

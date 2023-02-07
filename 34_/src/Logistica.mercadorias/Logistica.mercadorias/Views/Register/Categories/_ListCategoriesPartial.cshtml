@@ -1,0 +1,17 @@
+﻿@model List<CategoryModel>
+@{
+}
+
+@if (Model != null && Model.Any())
+{
+    
+    <select class="form-control" id="selected-category"> 
+        <option value="0"> Selecione </option>
+        @foreach(CategoryModel category in Model){
+        <option value="@category.Id"> @category.Name </option>
+        }
+    </select>
+
+} else {
+    <div> Não existem dados a serem exibidos</div>
+}

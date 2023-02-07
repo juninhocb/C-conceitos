@@ -18,7 +18,7 @@ namespace WebApplication_Middleware.Controllers
             return View();
         }
 
-        [MiddlewareFilter(typeof(IndsponibilidadePipeline), )]
+        [MiddlewareFilter(typeof(IndsponibilidadePipeline))]
         public IActionResult Privacy()
         {
             return View();
